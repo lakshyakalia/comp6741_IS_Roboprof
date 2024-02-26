@@ -10,3 +10,20 @@ dbpedia:Concordia_University a ex:Univeristy;
         rdfs:label "Concordia University";
         .
 
+ex:Course a rdfs:Class;
+    rdfs:label "Course";
+    .
+
+ex:offersCourse a rdfs:Property;
+    rdfs:label "offersCourse";
+    rdfs:domain ex:Univeristy;
+    rdfs:range ex:Course;
+    .
+
+ex:hasName a rdfs:Property;
+    rdfs:label "hasName";
+    .
+
+ex:Intelligent_Systems a ex:Course;
+    ex:hasName "Intelligent System";
+    .    
