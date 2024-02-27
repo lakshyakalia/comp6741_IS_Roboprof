@@ -8,7 +8,7 @@ ex:Student a rdfs:Class;
 	.
 
 ex:studentName a rdfs:Property;
-	rdfs:label "Student Name";
+	rdfs:label "StudentName";
 	rdfs:domain ex:Student;
 	.
 
