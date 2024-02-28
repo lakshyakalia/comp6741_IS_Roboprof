@@ -89,7 +89,7 @@ ex:Artificial_Intelligence a ex:Course;
     rdfs:comment "Vocabulary for AI course";
     ex:courseSubject "SOEN";
     ex:courseNumber "6721"^^xsd:integer;
-    ex:courseCredit "4"^^xsd:integer;
+    ex:courseCredit "3"^^xsd:integer;
     ex:courseDescription "This is a graudate level course";
     ex:courseOutline "This is a course outline for Artificial Intelligence";
     .    
