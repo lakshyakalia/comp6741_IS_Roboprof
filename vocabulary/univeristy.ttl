@@ -2,28 +2,94 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix ex: <http://example.org/>.
 @prefix dbpedia: <http://dbpedia.org/resource/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ex:Univeristy a rdfs:Class;
+ex:Univeristy a owl:Class;
     rdfs:label "University";
+    rdfs:comment "Vocabulary for university";
     .
 dbpedia:Concordia_University a ex:Univeristy;
         rdfs:label "Concordia University";
+        ex:offersCourse ex:Intelligent_Systems;
+        ex:offersCourse ex:Artificial_Intelligence;
         .
 
 ex:Course a rdfs:Class;
     rdfs:label "Course";
+    rdfs:comment "Vocabulary for course";
     .
 
 ex:offersCourse a rdfs:Property;
     rdfs:label "offersCourse";
     rdfs:domain ex:Univeristy;
     rdfs:range ex:Course;
+    rdfs:comment "Vocabulary for course offered by the university";
     .
 
-ex:hasName a rdfs:Property;
-    rdfs:label "hasName";
+#Properties of courses
+
+ex:courseName a rdfs:Property;
+    rdfs:label "courseName";
+    rdfs:comment "Vocabulary for name for courses";
+    rdfs:domain ex:Course;
+    rdfs:range rdfs:Literal;
     .
 
+ex:courseSubject a rdfs:Property;
+    rdfs:label "courseSubject";
+    rdfs:comment "subject the course belongs to";
+    rdfs:domain ex:Course;
+    rdfs:range rdfs:Literal;
+    .
+
+ex:courseNumber a rdfs:Property;
+    rdfs:label "courseNumber";
+    rdfs:comment "course number for the subject";
+    rdfs:domain ex:Course;
+    rdfs:range xsd:integer;
+    .
+
+ex:courseCredit a rdfs:Property;
+    rdfs:label "courseCredit";
+    rdfs:comment "credit for the subject";
+    rdfs:domain ex:Course;
+    rdfs:range xsd:integer;
+    .
+
+ex:courseDescription a rdfs:Property;
+    rdfs:label "courseDescription";
+    rdfs:comment "description for a course";
+    rdfs:domain ex:Course;
+    rdfs:range rdfs:Literal;
+    .
+
+ex:courseOutline a rdfs:Property;
+    rdfs:label "courseOutline";
+    rdfs:comment "outline for a course";
+    rdfs:domain ex:Course;
+    rdfs:range rdfs:Literal;
+    .
+
+#Courses
 ex:Intelligent_Systems a ex:Course;
-    ex:hasName "Intelligent System";
+    ex:courseName "Intelligent System";
+    rdfs:label "IS";
+    rdfs:comment "Vocabulary for IS course";
+    ex:courseSubject "COMP 6741";
+    ex:courseNumber "6741"^^xsd:integer;
+    ex:courseCredit "4"^^xsd:integer;
+    ex:courseDescription "This is a course for graduate and UNG students";
+    ex:courseOutline "This is a course outline for a Intelligent Systems";
+    .
+
+ex:Artificial_Intelligence a ex:Course;
+    ex:courseName "Applied Artificial Intelligience";
+    rdfs:label "AI";
+    rdfs:comment "Vocabulary for AI course";
+    ex:courseSubject "COMP 6721";
+    ex:courseNumber "6721"^^xsd:integer;
+    ex:courseCredit "4"^^xsd:integer;
+    ex:courseDescription "This is a graudate level course";
+    ex:courseOutline "This is a course outline for Artificial Intelligence";
     .    
