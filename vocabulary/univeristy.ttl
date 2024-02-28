@@ -5,11 +5,11 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ex:Univeristy a owl:Class;
+ex:University a owl:Class;
     rdfs:label "University";
     rdfs:comment "Vocabulary for university";
     .
-dbpedia:Concordia_University a ex:Univeristy;
+dbpedia:Concordia_University a ex:University;
         rdfs:label "Concordia University";
         ex:offersCourse ex:Intelligent_Systems;
         ex:offersCourse ex:Artificial_Intelligence;
@@ -22,7 +22,7 @@ ex:Course a rdfs:Class;
 
 ex:offersCourse a rdfs:Property;
     rdfs:label "offersCourse";
-    rdfs:domain ex:Univeristy;
+    rdfs:domain ex:University;
     rdfs:range ex:Course;
     rdfs:comment "Vocabulary for course offered by the university";
     .
@@ -76,7 +76,7 @@ ex:Intelligent_Systems a ex:Course;
     ex:courseName "Intelligent System";
     rdfs:label "IS";
     rdfs:comment "Vocabulary for IS course";
-    ex:courseSubject "COMP 6741";
+    ex:courseSubject "COMP";
     ex:courseNumber "6741"^^xsd:integer;
     ex:courseCredit "4"^^xsd:integer;
     ex:courseDescription "This is a course for graduate and UNG students";
@@ -87,7 +87,7 @@ ex:Artificial_Intelligence a ex:Course;
     ex:courseName "Applied Artificial Intelligience";
     rdfs:label "AI";
     rdfs:comment "Vocabulary for AI course";
-    ex:courseSubject "COMP 6721";
+    ex:courseSubject "SOEN";
     ex:courseNumber "6721"^^xsd:integer;
     ex:courseCredit "4"^^xsd:integer;
     ex:courseDescription "This is a graudate level course";
