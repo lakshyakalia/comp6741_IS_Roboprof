@@ -19,13 +19,33 @@ ex:Course a rdfs:Class;
     rdfs:label "Course";
     rdfs:comment "Vocabulary for course";
     .
-
-ex:offersCourse a rdfs:Property;
-    rdfs:label "offersCourse";
-    rdfs:domain ex:University;
-    rdfs:range ex:Course;
-    rdfs:comment "Vocabulary for course offered by the university";
+#Lecture classes
+ex:Lecture a rdfs:Class;
+    rdfs:label "Lecture";
+    rdfs:comment "This is a class for lectures";
     .
+
+ex:lectureContent a rdfs:Class;
+    rdfs:label "lectureContent";
+    rdfs:comment "this is lecture content class which will have subclasses for lecture content";
+    .
+
+ex:Slides a rdfs:class;
+    rdfs:label "lectureSlides";
+    rdfs:comment "Class for all the lecture sildes which is a subclass of lectureContent";
+    rdfs:subClassOf ex:lectureContent;
+    .
+ex:Worksheets a rdfs:class;
+    rdfs:label "worksheets";
+    rdfs:comment "Contains worksheet for the subject";
+    rdfs:subClassOf ex:lectureContent;
+    .
+ex:otherMaterials a rdfs:class;
+    rdfs:label "otherMaterials";
+    rdfs:comment "This contains other materials for the courses";
+    rdfs:subClassOf ex:lectureContent;
+    .
+
 
 #Properties of courses
 
@@ -70,6 +90,44 @@ ex:courseOutline a rdfs:Property;
     rdfs:domain ex:Course;
     rdfs:range rdfs:Literal;
     .
+
+ex:offersCourse a rdfs:Property;
+    rdfs:label "offersCourse";
+    rdfs:domain ex:University;
+    rdfs:range ex:Course;
+    rdfs:comment "Vocabulary for course offered by the university";
+    .
+
+#Lecture properties
+ex:lectureNumber a rdfs:Property;
+    rdfs:label "lectureNumber";
+    rdfs:comment "number of lecture for a course";
+    rdfs:domain ex:Lecture;
+    rdfs:range rdfs:Literal;
+    .
+
+ex:lectureName a rdfs:Property;
+    rdfs:label "lectureName";
+    rdfs:comment "This is a name of the lecture for the course";
+    rdfs:domain ex:Lecture;
+    rdfs:range: rdfs:Literal;
+    .
+
+ex:link a rdfs:Property;
+    rdfs:label "LectureLink";
+    rdfs:comment "This is a link for a lecture";
+    rdfs:domain ex:Lecture;
+    rdfs:range rdfs:Resource;
+    rdfs:seeAlso rdfs:Resource; 
+    .
+
+ex:hasLectureContent a rdfs:Property;
+    rdfs:label "hasLectureContent";
+    rdfs:comment "All the conent for a particular course";
+    rdfs:domain ex:Lecture;
+    rdfs:range ex:lectureContent;
+    .
+
 
 #Courses
 ex:Intelligent_Systems a ex:Course;
