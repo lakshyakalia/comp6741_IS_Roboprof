@@ -149,6 +149,7 @@ ex:hasLectureContent a rdfs:Property;
 ex:TopicName a rdfs:Property;
     rdfs:label "Topic Name";
     rdfs:domain ex:Topics;
+    rdfs:range rdfs:Literal;
     .
 
 ex:TopicProvenance a rdfs:Property;
@@ -178,6 +179,7 @@ ex:Intelligent_Systems a ex:Course;
     ex:courseSubject "COMP";
     ex:courseNumber "6741"^^xsd:integer;
     ex:courseCredit "4"^^xsd:integer;
+    ex:hasTopics ex:Deep_Learning; 
     ex:courseDescription "This is a course for graduate and UNG students";
     ex:courseOutline "This is a course outline for a Intelligent Systems";
     .
@@ -189,7 +191,14 @@ ex:Artificial_Intelligence a ex:Course;
     ex:courseSubject "SOEN";
     ex:courseNumber "6721"^^xsd:integer;
     ex:courseCredit "3"^^xsd:integer;
+    ex:hasTopics ex:Deep_Learning;
     ex:courseDescription "This is a graudate level course";
     ex:courseOutline "This is a course outline for Artificial Intelligence";
     .    
 
+#Topics
+ex:Deep_Learning a ex:Topics;
+    rdfs:label "DL";
+    rdfs:comment "Deep Learning Topic";
+    ex:TopicName "Deep Learning";
+    .
