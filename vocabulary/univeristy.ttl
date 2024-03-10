@@ -5,25 +5,23 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+#University Class
 ex:University a owl:Class;
     rdfs:label "University";
     rdfs:comment "Vocabulary for university";
     .
+
 dbpedia:Concordia_University a ex:University;
         rdfs:label "Concordia University";
         ex:offersCourse ex:Intelligent_Systems;
         ex:offersCourse ex:Artificial_Intelligence;
         .
 
+#Course Class
 ex:Course a rdfs:Class;
     rdfs:label "Course";
     rdfs:comment "Vocabulary for course";
-    .
-
-ex:Topics a rdfs:Class;
-    rdfs:label "Topics";
-    rdfs:comment "Topics covered in a course";
-    .
+    .  
 
 #Lecture classes
 ex:Lecture a rdfs:Class;
@@ -41,6 +39,7 @@ ex:Slides a rdfs:class;
     rdfs:comment "Class for all the lecture sildes which is a subclass of lectureContent";
     rdfs:subClassOf ex:lectureContent;
     .
+
 ex:Worksheets a rdfs:class;
     rdfs:label "worksheets";
     rdfs:comment "Contains worksheet for the subject";
@@ -52,6 +51,11 @@ ex:otherMaterials a rdfs:class;
     rdfs:subClassOf ex:lectureContent;
     .
 
+#Topics Class
+ex:Topics a rdfs:Class;
+    rdfs:label "Topics";
+    rdfs:comment "Topics covered in a course";
+    .
 
 #Properties of courses
 
@@ -97,6 +101,13 @@ ex:courseOutline a rdfs:Property;
     rdfs:range rdfs:Literal;
     .
 
+ex:hasLecture a rdfs:Property;
+    rdfs:label "hasLecture";
+    rdfs:comment "lectures for the course";
+    rdfs:domain ex:Course;
+    rdfs:range ex:Lecture;
+    .
+
 ex:offersCourse a rdfs:Property;
     rdfs:label "offersCourse";
     rdfs:domain ex:University;
@@ -134,6 +145,30 @@ ex:hasLectureContent a rdfs:Property;
     rdfs:range ex:lectureContent;
     .
 
+#Topics Properties
+ex:TopicName a rdfs:Property;
+    rdfs:label "Topic Name";
+    rdfs:domain ex:Topics;
+    .
+
+ex:TopicProvenance a rdfs:Property;
+    rdfs:label "Provenance information about the course";
+    rdfs:domain ex:Topics;
+    .
+
+ex:TopicLink a rdfs:Property;
+    rdfs:label "Link to DBpedia";
+    rdfs:domain ex:Topics;
+    .
+
+ex:hasTopics a rdfs:Property;
+    rdfs:label "isTaught";
+    rdfs:comment "is taught relation between topics and courses";
+    rdfs:domain rdfs:Course;
+    rdfs:range rdfs:Topics;
+    .
+
+#Data
 
 #Courses
 ex:Intelligent_Systems a ex:Course;
@@ -158,18 +193,3 @@ ex:Artificial_Intelligence a ex:Course;
     ex:courseOutline "This is a course outline for Artificial Intelligence";
     .    
 
-#Topic
-ex:TopicName a rdfs:Property;
-    rdfs:label "Topic Name";
-    rdfs:domain ex:Topics;
-    .
-
-ex:TopicProvenance a rdfs:Property;
-    rdfs:label "Provenance information about the course";
-    rdfs:domain ex:Topics;
-    .
-
-ex:TopicLink a rdfs:Property;
-    rdfs:label "Link to DBpedia";
-    rdfs:domain ex:Topics;
-    .
