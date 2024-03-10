@@ -57,6 +57,11 @@ ex:Topics a rdfs:Class;
     rdfs:comment "Topics covered in a course";
     .
 
+#Student Class
+ex:Student a rdfs:Class;
+	rdfs:label "Student";
+	.
+    
 #Properties of courses
 
 ex:courseName a rdfs:Property;
@@ -168,6 +173,39 @@ ex:hasTopics a rdfs:Property;
     rdfs:domain rdfs:Course;
     rdfs:range rdfs:Topics;
     .
+
+#Student Properties
+ex:studentName a rdfs:Property;
+	rdfs:label "StudentName";
+	rdfs:domain ex:Student;
+    rdfs:range rdfs:Literal;
+	.
+
+ex:studentIDNumber a rdfs:Property;
+	rdfs:label "IDNumber";
+	rdfs:domain ex:Student;
+    rdfs:range rdfs:Literal;
+	.
+
+ex:studentEmail a rdfs:Property;
+	rdfs:label "Email";
+	rdfs:domain ex:Student;
+    rdfs:range rdfs:Literal;
+	.
+
+ex:hasCompletedCourse a rdfs:Property;
+    rdfs:label "Completed Courses";
+    rdfs:comment "Courses completed by student";
+    rdfs:domain ex:Student;
+    rdfs:range ex:Course;
+    .
+
+ex:competencies a rdfs:Property;
+	rdfs:label "Competencies";
+	rdfs:domain ex:Student;
+    rdfs:range ex:Topics;
+	.
+
 
 #Data
 
