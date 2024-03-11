@@ -264,4 +264,28 @@ ex:IS_Lecture_One a ex:Lecture;
     ex:lectureName "IS Lecture One";
     ex:lectureNumber "1"^^xsd:integer;
     ex:hasTopicsCovered ex:Dynamic_Programming;
+    .
+
+#Student
+ex:Manish_Gautam a ex:Student;
+    ex:studentName "Manish Gautam";
+    ex:hasCompletedCourse ex:Artificial_Intelligence;
+    ex:hasCompletedCourse ex:Intelligent_Systems;
+    .
+
+ex:Lakshya_Kalia a ex:Student;
+    ex:studentName "Lakshya Kalia";
+    ex:hasCompletedCourse ex:Artificial_Intelligence;
+    ex:hasCompletedCourse ex:Intelligent_Systems;
+    .
+
+ex:Rohit_Shrestha a ex:Student;
+    ex:studentName "Rohit Shrestha";
+    ex:hasCompletedCourse ex:Artificial_Intelligence;
+    .
+
+ex:Aatish_Neupane a ex:Student;
+    ex:studentName "Aatish Neupane";
+    ex:hasCompletedCourse ex:Intelligent_Systems;
+    .
 
