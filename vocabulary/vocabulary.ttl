@@ -271,6 +271,8 @@ ex:Manish_Gautam a ex:Student;
     ex:studentName "Manish Gautam";
     ex:hasCompletedCourse ex:Artificial_Intelligence;
     ex:hasCompletedCourse ex:Intelligent_Systems;
+    ex:competencies ex:Deep_Learning;
+    ex:competencies ex:Dynamic_Programming;
     .
 
 ex:Lakshya_Kalia a ex:Student;
