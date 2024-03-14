@@ -4,7 +4,7 @@ import chardet
 
 def convert(row):
     str = ''
-    # for col in row:
+
     split = row[3].split()
     initial = [word[0].upper() for word in split]
     initial1 = ''.join(initial)
@@ -29,21 +29,21 @@ def convert(row):
     return str
 
 
-# Detect file encoding
+
 with open('csv_to_triple_converter/CU_SR_OPEN_DATA_CATALOG.csv', 'rb') as f:
     encoding = chardet.detect(f.read())['encoding']
 
-# Open the CSV file with detected encoding
+
 with open('csv_to_triple_converter/CU_SR_OPEN_DATA_CATALOG.csv', newline='', encoding=encoding) as csvfile:
     write_str = ''
-    # Create a CSV reader object
+
     csvreader = csv.reader(csvfile)
     
-    # Iterate over each row in the CSV file
+
     count = 0
     for row in csvreader:
         count = count + 1
-        # Each row is a list of values corresponding to columns
+
         if count > 1:
             out = convert(row)
             write_str = write_str + out + '\n\n'
