@@ -202,6 +202,13 @@ ex:hasCompletedCourse a rdfs:Property;
     rdfs:range ex:Course;
     .
 
+ex:grade a rdfs:Property;
+    rdfs:label "Completed Courses";
+    rdfs:comment "Courses completed by student";
+    rdfs:domain ex:Course;
+    rdfs:range ex:Grade;
+    .
+
 ex:competencies a rdfs:Property;
 	rdfs:label "Competencies";
 	rdfs:domain ex:Student;
@@ -273,6 +280,8 @@ ex:Manish_Gautam a ex:Student;
     ex:hasCompletedCourse ex:Intelligent_Systems;
     ex:competencies ex:Deep_Learning;
     ex:competencies ex:Dynamic_Programming;
+    ex:grade ex:a+;
+    ex:grade ex:b+;
     .
 
 ex:Lakshya_Kalia a ex:Student;
