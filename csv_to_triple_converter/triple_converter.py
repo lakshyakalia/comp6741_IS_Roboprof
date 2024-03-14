@@ -1,5 +1,6 @@
 import csv
 import chardet
+import re
 
 
 def convert(row):
@@ -8,7 +9,15 @@ def convert(row):
     split = row[3].split()
     initial = [word[0].upper() for word in split]
     initial1 = ''.join(initial)
-    title_h = row[3].replace(" ", "_")
+    title_h = row[3]
+    # title_h = title_h.replace(".", "")
+    # title_h = title_h.replace("/", "_")
+
+    # special_characters = "!@#$%^&*()-+=[]{}|;:',.<>`?/"
+
+    # title_h = ''.join('_' if char in special_characters or char.isspace() else char for char in title_h)
+    title_h = re.sub(r'[^a-zA-Z]+', '_', title_h)
+    
     # Course Identifier
     str = str + "ex:" + title_h + " a ex:Course;\n"
     # Course Name
