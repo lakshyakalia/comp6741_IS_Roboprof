@@ -24,7 +24,7 @@ def convert(row):
     # Course credit
     str = str + '\tex:courseCredit "' + row[4] + '"^^xsd:integer;\n'
     # Course Description/Pre-requisite
-    str = str + '\tex:courseDescription "' + row[7] + '";\n\t.'
+    str = str + '\tex:courseDescription "' + row[5] + ', ' + row[7] + '";\n\t.'
     
     return str
 
