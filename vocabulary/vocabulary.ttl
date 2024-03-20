@@ -4,6 +4,7 @@
 @prefix dbpedia: <http://dbpedia.org/resource/>.
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix file: </home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof>.
 
 #University Class
 ex:University a owl:Class;
@@ -195,6 +196,28 @@ ex:studentEmail a rdfs:Property;
     rdfs:range rdfs:Literal;
 	.
 
+ex:got_grade_A a rdfs:Property;
+    rdfs:label "A";
+    rdfs:domain ex:Student;
+    rdfs:range rdfs:Course;
+    .
+ex:got_grade_B a rdfs:Property;
+    rdfs:label "B";
+    rdfs:domain ex:Student;
+    rdfs:range rdfs:Course;
+    .
+ex:got_grade_C a rdfs:Property;
+    rdfs:label "C";
+    rdfs:domain ex:Student;
+    rdfs:range rdfs:Course;
+    .
+
+ex:got_grade_D a rdfs:Property;
+    rdfs:label "D";
+    rdfs:domain ex:Student;
+    rdfs:range rdfs:Course;
+    .
+
 ex:hasCompletedCourse a rdfs:Property;
     rdfs:label "Completed Courses";
     rdfs:comment "Courses completed by student";
@@ -253,6 +276,8 @@ ex:Manish_Gautam a ex:Student;
     ex:studentName "Manish Gautam";
     ex:hasCompletedCourse ex:INTELLIGENT_SYSTEMS;
     ex:hasCompletedCourse ex:APPLIED_ARTIFICIAL_INTELLIGENCE;
+    ex:got_grade_A ex:INTELLIGENT_SYSTEMS;
+    ex:got_grade_B ex:APPLIED_ARTIFICIAL_INTELLIGENCE;
     ex:competencies ex:Deep_Learning;
     ex:competencies ex:Dynamic_Programming;
     .
@@ -293,7 +318,7 @@ ex:APPLIED_ARTIFICIAL_INTELLIGENCE a ex:Course;
 	ex:courseNumber "6721"^^xsd:integer;
 	ex:courseCredit "4.00"^^xsd:integer;
 	ex:hasLecture ex:AI_Lecture_One;
-	ex:courseDescription "LEC,    Never Taken/Not Registered: COMP472";
+	ex:courseDescription "LEC,Never Taken/Not Registered: COMP472";
 	.
 
 ex:INTELLIGENT_SYSTEMS a ex:Course;
@@ -303,7 +328,7 @@ ex:INTELLIGENT_SYSTEMS a ex:Course;
 	ex:courseSubject "COMP";
 	ex:courseNumber "6741"^^xsd:integer;
 	ex:courseCredit "4.00"^^xsd:integer;
-	ex:courseDescription "LAB,    Never Taken/Not Registered: COMP474";
+	ex:courseDescription "LAB,Never Taken/Not Registered: COMP474";
 	.
 
 ex:INTELLIGENT_SYSTEMS a ex:Course;
@@ -314,7 +339,7 @@ ex:INTELLIGENT_SYSTEMS a ex:Course;
 	ex:courseNumber "6741"^^xsd:integer;
 	ex:courseCredit "4.00"^^xsd:integer;
 	ex:hasLecture ex:IS_Lecture_One; 
-	ex:courseDescription "LEC,    Never Taken/Not Registered: COMP474";
+	ex:courseDescription "LEC, Never Taken/Not Registered: COMP474";
 	.
 
 ex:Financial_and_Managerial_Accounting a ex:Course;
