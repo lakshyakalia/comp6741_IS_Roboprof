@@ -1,10 +1,12 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-@prefix ex: <http://example.org/>.
-@prefix dbpedia: <http://dbpedia.org/resource/>.
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix file: </home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof>.
+@prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>.
+@prefix ex:<http://example.org/>.
+@prefix dbpedia:<http://dbpedia.org/resource/>.
+@prefix owl:<http://www.w3.org/2002/07/owl#> .
+@prefix xsd:<http://www.w3.org/2001/XMLSchema#> .
+@prefix isr_slides:</home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/slides#/>.
+@prefix isr_labs:</home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/labs#/>.
+@prefix isr_tutorials:</home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/tutorials#/>.
 
 #University Class
 ex:University a owl:Class;
@@ -62,7 +64,8 @@ ex:Topics a rdfs:Class;
 ex:Student a rdfs:Class;
 	rdfs:label "Student";
 	.
-    
+
+
 #Properties of courses
 
 ex:courseName a rdfs:Property;
@@ -225,12 +228,12 @@ ex:hasCompletedCourse a rdfs:Property;
     rdfs:range ex:Course;
     .
 
-ex:grade a rdfs:Property;
-    rdfs:label "Completed Courses";
-    rdfs:comment "Courses completed by student";
-    rdfs:domain ex:Course;
-    rdfs:range ex:Grade;
-    .
+#ex:grade a rdfs:Property;
+#    rdfs:label "Completed Courses";
+#    rdfs:comment "Courses completed by student";
+#    rdfs:domain ex:Course;
+#    rdfs:range ex:Grade;
+#    .
 
 ex:competencies a rdfs:Property;
 	rdfs:label "Competencies";
@@ -269,6 +272,20 @@ ex:IS_Lecture_One a ex:Lecture;
     ex:lectureName "IS Lecture One";
     ex:lectureNumber "1"^^xsd:integer;
     ex:hasTopicsCovered ex:Dynamic_Programming;
+    ex:hasLectureContent isr_slides:IS_Slide_01;
+    ex:hasLectureContent isr_labs:IS_Lab_01;
+    ex:hasLectureContent isr_tutorials:IS_Worksheet_01;
+    .
+
+ex:IS_Lecture_Two a ex:Lecture;
+    rdfs:label "IS lecture Two";
+    rdfs:comment "IS lecture Two";
+    ex:lectureName "IS Lecture Two";
+    ex:lectureNumber "2"^^xsd:integer;
+    ex:hasTopicsCovered ex:Deep_Learning;
+    ex:hasLectureContent isr_slides:IS_Slide_02;
+    ex:hasLectureContent isr_labs:IS_Lab_02;
+    ex:hasLectureContent isr_tutorials:IS_Worksheet_02;
     .
 
 #Student
@@ -297,6 +314,41 @@ ex:Aatish_Neupane a ex:Student;
     ex:studentName "Aatish Neupane";
     ex:hasCompletedCourse ex:INTELLIGENT_SYSTEMS;
     .
+
+
+#Lecture content data.
+#IS Lecture one contents
+isr_slides:IS_Slide_01 a ex:Slides;
+    rdfs:label "IS_slide_01";
+    rdfs:comment "Intelligent System Silde 01";
+    .
+
+isr_labs:IS_Lab_01 a ex:otherMaterials;
+    rdfs:label "IS_Lab_01";
+    rdfs:comment "Intelligent System Lab 01";
+    .
+
+isr_tutorials:IS_Worksheet_01 a ex:tutorials;
+    rdfs:label "IS_Worksheet_01";
+    rdfs:comment  "Inlligent System Worksheet1";
+    .
+
+#IS Lecture two contents
+isr_slides:IS_Slide_02 a ex:Slides;
+    rdfs:label "IS_slide_02";
+    rdfs:comment "Intelligent System Silde 02";
+    .
+
+isr_labs:IS_Lab_02 a ex:otherMaterials;
+    rdfs:label "IS_Lab_02";
+    rdfs:comment "Intelligent System Lab 02";
+    .
+
+isr_tutorials:IS_Worksheet_02 a ex:tutorials;
+    rdfs:label "IS_Worksheet_02";
+    rdfs:comment  "Inlligent System Worksheet2";
+    .
+
 
 #Courses
 
@@ -338,7 +390,8 @@ ex:INTELLIGENT_SYSTEMS a ex:Course;
 	ex:courseSubject "COMP";
 	ex:courseNumber "6741"^^xsd:integer;
 	ex:courseCredit "4.00"^^xsd:integer;
-	ex:hasLecture ex:IS_Lecture_One; 
+	ex:hasLecture ex:IS_Lecture_One;
+    ex:hasLecture ex:IS_Lecture_Two; 
 	ex:courseDescription "LEC, Never Taken/Not Registered: COMP474";
 	.
 
