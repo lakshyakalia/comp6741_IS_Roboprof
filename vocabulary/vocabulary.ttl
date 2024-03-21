@@ -275,6 +275,7 @@ ex:IS_Lecture_One a ex:Lecture;
     ex:hasLectureContent isr_slides:IS_Slide_01;
     ex:hasLectureContent isr_labs:IS_Lab_01;
     ex:hasLectureContent isr_tutorials:IS_Worksheet_01;
+    rdfs:seeAlso <http://concordia.ca/courses/comp6741/lecture_one>;
     .
 
 ex:IS_Lecture_Two a ex:Lecture;
@@ -286,6 +287,7 @@ ex:IS_Lecture_Two a ex:Lecture;
     ex:hasLectureContent isr_slides:IS_Slide_02;
     ex:hasLectureContent isr_labs:IS_Lab_02;
     ex:hasLectureContent isr_tutorials:IS_Worksheet_02;
+    rdfs:seeAlso <http://concordia.ca/courses/comp6741/lecture_two>;
     .
 
 #Student
