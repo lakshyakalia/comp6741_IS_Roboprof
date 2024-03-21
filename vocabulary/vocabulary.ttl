@@ -4,9 +4,9 @@
 @prefix dbpedia:<http://dbpedia.org/resource/>.
 @prefix owl:<http://www.w3.org/2002/07/owl#> .
 @prefix xsd:<http://www.w3.org/2001/XMLSchema#> .
-@prefix isr_slides:</home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/slides#/>.
-@prefix isr_labs:</home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/labs#/>.
-@prefix isr_tutorials:</home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/tutorials#/>.
+@prefix isr_slides:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/slides/>.
+@prefix isr_labs:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/labs/>.
+@prefix isr_tutorials:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/tutorials/>.
 
 #University Class
 ex:University a owl:Class;
@@ -272,7 +272,7 @@ ex:IS_Lecture_One a ex:Lecture;
     ex:lectureName "IS Lecture One";
     ex:lectureNumber "1"^^xsd:integer;
     ex:hasTopicsCovered ex:Dynamic_Programming;
-    ex:hasLectureContent isr_slides:IS_Slide_01;
+    ex:hasLectureContent isr_slides:IS_Slides01;
     ex:hasLectureContent isr_labs:IS_Lab_01;
     ex:hasLectureContent isr_tutorials:IS_Worksheet_01;
     rdfs:seeAlso <http://concordia.ca/courses/comp6741/lecture_one>;
@@ -320,7 +320,7 @@ ex:Aatish_Neupane a ex:Student;
 
 #Lecture content data.
 #IS Lecture one contents
-isr_slides:IS_Slide_01 a ex:Slides;
+isr_slides:IS_Slides01 a ex:Slides;
     rdfs:label "IS_slide_01";
     rdfs:comment "Intelligent System Silde 01";
     .
