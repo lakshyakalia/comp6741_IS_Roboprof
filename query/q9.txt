@@ -1,0 +1,18 @@
+PREFIX ec: <http://eulergui.sourceforge.net/contacts.owl.n3#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex: <http://example.org/>
+PREFIX dbpedia: <http://dbpedia.org/resource/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX vcard:      <http://www.w3.org/2001/vcard-rdf/3.0#>
+
+#Query 9
+SELECT DISTINCT ?content_label WHERE{
+  	?course ex:hasLecture ?lecture.
+  	?lecture ex:hasTopicsCovered ?topic.
+  	?topic ex:TopicName ?topic_name.
+  	?lecture ex:hasLectureContent ?lecture_content.
+  	?lecture_content a ex:readingMaterials.
+  	?lecture_content rdfs:label ?content_label.
+  FILTER(?course=ex:APPLIED_ARTIFICIAL_INTELLIGENCE && ?topic_name='Deep Learning')
+}
