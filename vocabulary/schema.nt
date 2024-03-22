@@ -1,0 +1,150 @@
+<http://example.org/University> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/University> <http://www.w3.org/2000/01/rdf-schema#label> "University" .
+<http://example.org/University> <http://www.w3.org/2000/01/rdf-schema#comment> "Vocabulary for university" .
+<http://dbpedia.org/resource/Concordia_University> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/University> .
+<http://dbpedia.org/resource/Concordia_University> <http://www.w3.org/2000/01/rdf-schema#label> "Concordia University" .
+<http://dbpedia.org/resource/Concordia_University> <http://example.org/offersCourse> <http://example.org/Intelligent_Systems> .
+<http://dbpedia.org/resource/Concordia_University> <http://example.org/offersCourse> <http://example.org/Artificial_Intelligence> .
+<http://example.org/Course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://example.org/Course> <http://www.w3.org/2000/01/rdf-schema#label> "Course" .
+<http://example.org/Course> <http://www.w3.org/2000/01/rdf-schema#comment> "Vocabulary for course" .
+<http://example.org/Lecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://example.org/Lecture> <http://www.w3.org/2000/01/rdf-schema#label> "Lecture" .
+<http://example.org/Lecture> <http://www.w3.org/2000/01/rdf-schema#comment> "This is a class for lectures" .
+<http://example.org/lectureContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://example.org/lectureContent> <http://www.w3.org/2000/01/rdf-schema#label> "lectureContent" .
+<http://example.org/lectureContent> <http://www.w3.org/2000/01/rdf-schema#comment> "this is lecture content class which will have subclasses for lecture content" .
+<http://example.org/Slides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#class> .
+<http://example.org/Slides> <http://www.w3.org/2000/01/rdf-schema#label> "lectureSlides" .
+<http://example.org/Slides> <http://www.w3.org/2000/01/rdf-schema#comment> "Class for all the lecture sildes which is a subclass of lectureContent" .
+<http://example.org/Slides> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/lectureContent> .
+<http://example.org/Worksheets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#class> .
+<http://example.org/Worksheets> <http://www.w3.org/2000/01/rdf-schema#label> "worksheets" .
+<http://example.org/Worksheets> <http://www.w3.org/2000/01/rdf-schema#comment> "Contains worksheet for the subject" .
+<http://example.org/Worksheets> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/lectureContent> .
+<http://example.org/otherMaterials> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#class> .
+<http://example.org/otherMaterials> <http://www.w3.org/2000/01/rdf-schema#label> "otherMaterials" .
+<http://example.org/otherMaterials> <http://www.w3.org/2000/01/rdf-schema#comment> "This contains other materials for the courses" .
+<http://example.org/otherMaterials> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/lectureContent> .
+<http://example.org/readingMaterials> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://example.org/readingMaterials> <http://www.w3.org/2000/01/rdf-schema#label> "readingMaterials" .
+<http://example.org/readingMaterials> <http://www.w3.org/2000/01/rdf-schema#comment> "Reading material for the course" .
+<http://example.org/readingMaterials> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/lectureContent> .
+<http://example.org/Topics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://example.org/Topics> <http://www.w3.org/2000/01/rdf-schema#label> "Topics" .
+<http://example.org/Topics> <http://www.w3.org/2000/01/rdf-schema#comment> "Topics covered in a course" .
+<http://example.org/Student> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://example.org/Student> <http://www.w3.org/2000/01/rdf-schema#label> "Student" .
+<http://example.org/courseName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/courseName> <http://www.w3.org/2000/01/rdf-schema#label> "courseName" .
+<http://example.org/courseName> <http://www.w3.org/2000/01/rdf-schema#comment> "Vocabulary for name for courses" .
+<http://example.org/courseName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Course> .
+<http://example.org/courseName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/courseSubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/courseSubject> <http://www.w3.org/2000/01/rdf-schema#label> "courseSubject" .
+<http://example.org/courseSubject> <http://www.w3.org/2000/01/rdf-schema#comment> "subject the course belongs to" .
+<http://example.org/courseSubject> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Course> .
+<http://example.org/courseSubject> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/courseNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/courseNumber> <http://www.w3.org/2000/01/rdf-schema#label> "courseNumber" .
+<http://example.org/courseNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "course number for the subject" .
+<http://example.org/courseNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Course> .
+<http://example.org/courseNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/courseCredit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/courseCredit> <http://www.w3.org/2000/01/rdf-schema#label> "courseCredit" .
+<http://example.org/courseCredit> <http://www.w3.org/2000/01/rdf-schema#comment> "credit for the subject" .
+<http://example.org/courseCredit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Course> .
+<http://example.org/courseCredit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/courseDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/courseDescription> <http://www.w3.org/2000/01/rdf-schema#label> "courseDescription" .
+<http://example.org/courseDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "description for a course" .
+<http://example.org/courseDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Course> .
+<http://example.org/courseDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/courseOutline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/courseOutline> <http://www.w3.org/2000/01/rdf-schema#label> "courseOutline" .
+<http://example.org/courseOutline> <http://www.w3.org/2000/01/rdf-schema#comment> "outline for a course" .
+<http://example.org/courseOutline> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Course> .
+<http://example.org/courseOutline> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/hasLecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/hasLecture> <http://www.w3.org/2000/01/rdf-schema#label> "hasLecture" .
+<http://example.org/hasLecture> <http://www.w3.org/2000/01/rdf-schema#comment> "lectures for the course" .
+<http://example.org/hasLecture> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Course> .
+<http://example.org/hasLecture> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/Lecture> .
+<http://example.org/offersCourse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/offersCourse> <http://www.w3.org/2000/01/rdf-schema#label> "offersCourse" .
+<http://example.org/offersCourse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/University> .
+<http://example.org/offersCourse> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/Course> .
+<http://example.org/offersCourse> <http://www.w3.org/2000/01/rdf-schema#comment> "Vocabulary for course offered by the university" .
+<http://example.org/lectureNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/lectureNumber> <http://www.w3.org/2000/01/rdf-schema#label> "lectureNumber" .
+<http://example.org/lectureNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "number of lecture for a course" .
+<http://example.org/lectureNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Lecture> .
+<http://example.org/lectureNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/lectureName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/lectureName> <http://www.w3.org/2000/01/rdf-schema#label> "lectureName" .
+<http://example.org/lectureName> <http://www.w3.org/2000/01/rdf-schema#comment> "This is a name of the lecture for the course" .
+<http://example.org/lectureName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Lecture> .
+<http://example.org/lectureName> <http://www.w3.org/2000/01/rdf-schema#range:> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/link> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/link> <http://www.w3.org/2000/01/rdf-schema#label> "LectureLink" .
+<http://example.org/link> <http://www.w3.org/2000/01/rdf-schema#comment> "This is a link for a lecture" .
+<http://example.org/link> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Lecture> .
+<http://example.org/link> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://example.org/link> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://example.org/hasTopicsCovered> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/hasTopicsCovered> <http://www.w3.org/2000/01/rdf-schema#label> "topics covered" .
+<http://example.org/hasTopicsCovered> <http://www.w3.org/2000/01/rdf-schema#comment> "topics covered in a lecture" .
+<http://example.org/hasTopicsCovered> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Lecture> .
+<http://example.org/hasTopicsCovered> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/Topics> .
+<http://example.org/hasLectureContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/hasLectureContent> <http://www.w3.org/2000/01/rdf-schema#label> "hasLectureContent" .
+<http://example.org/hasLectureContent> <http://www.w3.org/2000/01/rdf-schema#comment> "All the conent for a particular course" .
+<http://example.org/hasLectureContent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Lecture> .
+<http://example.org/hasLectureContent> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/lectureContent> .
+<http://example.org/TopicName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/TopicName> <http://www.w3.org/2000/01/rdf-schema#label> "Topic Name" .
+<http://example.org/TopicName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Topics> .
+<http://example.org/TopicName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/TopicProvenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/TopicProvenance> <http://www.w3.org/2000/01/rdf-schema#label> "Provenance information about the course" .
+<http://example.org/TopicProvenance> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Topics> .
+<http://example.org/TopicLink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/TopicLink> <http://www.w3.org/2000/01/rdf-schema#label> "Link to DBpedia" .
+<http://example.org/TopicLink> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Topics> .
+<http://example.org/studentName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/studentName> <http://www.w3.org/2000/01/rdf-schema#label> "StudentName" .
+<http://example.org/studentName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Student> .
+<http://example.org/studentName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/studentIDNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/studentIDNumber> <http://www.w3.org/2000/01/rdf-schema#label> "IDNumber" .
+<http://example.org/studentIDNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Student> .
+<http://example.org/studentIDNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/studentEmail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/studentEmail> <http://www.w3.org/2000/01/rdf-schema#label> "Email" .
+<http://example.org/studentEmail> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Student> .
+<http://example.org/studentEmail> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/got_grade_A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/got_grade_A> <http://www.w3.org/2000/01/rdf-schema#label> "A" .
+<http://example.org/got_grade_A> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Student> .
+<http://example.org/got_grade_A> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Course> .
+<http://example.org/got_grade_B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/got_grade_B> <http://www.w3.org/2000/01/rdf-schema#label> "B" .
+<http://example.org/got_grade_B> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Student> .
+<http://example.org/got_grade_B> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Course> .
+<http://example.org/got_grade_C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/got_grade_C> <http://www.w3.org/2000/01/rdf-schema#label> "C" .
+<http://example.org/got_grade_C> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Student> .
+<http://example.org/got_grade_C> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Course> .
+<http://example.org/got_grade_D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/got_grade_D> <http://www.w3.org/2000/01/rdf-schema#label> "D" .
+<http://example.org/got_grade_D> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Student> .
+<http://example.org/got_grade_D> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Course> .
+<http://example.org/hasCompletedCourse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/hasCompletedCourse> <http://www.w3.org/2000/01/rdf-schema#label> "Completed Courses" .
+<http://example.org/hasCompletedCourse> <http://www.w3.org/2000/01/rdf-schema#comment> "Courses completed by student" .
+<http://example.org/hasCompletedCourse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Student> .
+<http://example.org/hasCompletedCourse> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/Course> .
+<http://example.org/competencies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://example.org/competencies> <http://www.w3.org/2000/01/rdf-schema#label> "Competencies" .
+<http://example.org/competencies> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Student> .
+<http://example.org/competencies> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/Topics> .
