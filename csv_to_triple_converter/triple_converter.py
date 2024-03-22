@@ -32,7 +32,7 @@ def convert(row):
     # Course Description/Pre-requisite
     triple_string = triple_string + '\tex:courseDescription "' + row[5] + '";\n\t.'
     
-    return str
+    return triple_string
 
 
 
