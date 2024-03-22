@@ -21,7 +21,8 @@ To run: Go to csv_to_triple_converter folder and run triple_converter.py
 
 Contains python code for knowledge base construction which parses the schema.ttl file and prints the graph.
 ```
-To run: Go to the knowledge_base_construction folder and run knowledge_base_construction.py
+To run: Go to the knowledge_base_construction folder and run 
+    python3 knowledge_base_construction.py
 ```
 <b>Note:</b> Please install rdflib prior to running the code.
 ### Query (Folder)
