@@ -4,18 +4,12 @@
 @prefix dbpedia:<http://dbpedia.org/resource/>.
 @prefix owl:<http://www.w3.org/2002/07/owl#> .
 @prefix xsd:<http://www.w3.org/2001/XMLSchema#> .
-<<<<<<< HEAD
 @prefix isr_slides:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/slides/>.
 @prefix isr_labs:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/labs/>.
 @prefix isr_tutorials:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/tutorials/>.
-=======
-@prefix isr_slides:</home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/slides#/>.
-@prefix isr_labs:</home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/labs#/>.
-@prefix isr_tutorials:</home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/tutorials#/>.
 @prefix aai_reading_materials:</C:/Users/laksh/Documents/IS_Project/AI_material/ReadingMaterials>.
 @prefix aai_labs:</C:/Users/laksh/Documents/IS_Project/AI_material/Labs>.
 @prefix aai_slides:</C:/Users/laksh/Documents/IS_Project/AI_material/Lectures>.
->>>>>>> c148fc2332303c13a8f92d99e924271e70f43cd6
 
 #University Class
 ex:University a owl:Class;
