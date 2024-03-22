@@ -4,36 +4,33 @@ import re
 
 
 def convert(row):
-    str = ''
+    
 
-    split = row[3].split()
-    initial = [word[0].upper() for word in split]
-    initial1 = ''.join(initial)
+    row_split = row[3].split()
+    course_initial = [word[0].upper() for word in row_split]
+    course_initial_join = ''.join(course_initial)
     title_h = row[3]
-    # title_h = title_h.replace(".", "")
-    # title_h = title_h.replace("/", "_")
+   
+    triple_identifier = re.sub(r'[^a-zA-Z]+', '_', title_h)
 
-    # special_characters = "!@#$%^&*()-+=[]{}|;:',.<>`?/"
-
-    # title_h = ''.join('_' if char in special_characters or char.isspace() else char for char in title_h)
-    title_h = re.sub(r'[^a-zA-Z]+', '_', title_h)
+    triple_string = ''
     
     # Course Identifier
-    str = str + "ex:" + title_h + " a ex:Course;\n"
+    triple_string = triple_string + "ex:" + triple_identifier + " a ex:Course;\n"
     # Course Name
-    str = str + '\tex:courseName "' + row[3] + '";\n'
+    triple_string = triple_string + '\tex:courseName "' + row[3] + '";\n'
     # Course Label
-    str = str + '\trdfs:label "' + initial1 + '";\n'
+    triple_string = triple_string + '\trdfs:label "' + course_initial_join + '";\n'
     # Course comment
-    str = str + '\trdfs:comment "Vocabulary for ' + initial1 + ' course";\n'
+    triple_string = triple_string + '\trdfs:comment "Vocabulary for ' + course_initial_join + ' course";\n'
     # Course subject
-    str = str + '\tex:courseSubject "' + row[1] + '";\n'
+    triple_string = triple_string + '\tex:courseSubject "' + row[1] + '";\n'
     # Course Number
-    str = str + '\tex:courseNumber "' + row[2] + '"^^xsd:integer;\n'
+    triple_string = triple_string + '\tex:courseNumber "' + row[2] + '"^^xsd:integer;\n'
     # Course credit
-    str = str + '\tex:courseCredit "' + row[4] + '"^^xsd:integer;\n'
+    triple_string = triple_string + '\tex:courseCredit "' + row[4] + '"^^xsd:integer;\n'
     # Course Description/Pre-requisite
-    str = str + '\tex:courseDescription "' + row[5] + '";\n\t.'
+    triple_string = triple_string + '\tex:courseDescription "' + row[5] + '";\n\t.'
     
     return str
 
