@@ -1,0 +1,279 @@
+	ex:hasTopicsCovered dbpedia:comp;
+	ex:hasTopicsCovered dbpedia:ai;
+	ex:hasTopicsCovered dbpedia:mycin;
+	ex:hasTopicsCovered dbpedia:ai_winter;
+	ex:hasTopicsCovered dbpedia:cornell;
+	ex:hasTopicsCovered dbpedia:frank_rosenblatt;
+	ex:hasTopicsCovered dbpedia:acm;
+	ex:hasTopicsCovered dbpedia:yoshua_bengio;
+	ex:hasTopicsCovered dbpedia:montreal;
+	ex:hasTopicsCovered dbpedia:geoffrey;
+	ex:hasTopicsCovered dbpedia:hinton;
+	ex:hasTopicsCovered dbpedia:toronto;
+	ex:hasTopicsCovered dbpedia:yann_lecun;
+	ex:hasTopicsCovered dbpedia:turing_award;
+	ex:hasTopicsCovered dbpedia:deep_learning;
+	ex:hasTopicsCovered dbpedia:marvin_minsky;
+	ex:hasTopicsCovered dbpedia:seymour;
+	ex:hasTopicsCovered dbpedia:alpac;
+	ex:hasTopicsCovered dbpedia:alphago;
+	ex:hasTopicsCovered dbpedia:terry_winograd;
+	ex:hasTopicsCovered dbpedia:shrdlu;
+	ex:hasTopicsCovered dbpedia:english;
+	ex:hasTopicsCovered dbpedia:lisp;
+	ex:hasTopicsCovered dbpedia:imagenet;
+	ex:hasTopicsCovered dbpedia:joseph_weizenbaum;
+	ex:hasTopicsCovered dbpedia:cortes;
+	ex:hasTopicsCovered dbpedia:vladimir_vapnik;
+	ex:hasTopicsCovered dbpedia:support_vector_machines;
+	ex:hasTopicsCovered dbpedia:svm;
+	ex:hasTopicsCovered dbpedia:new_york;
+	ex:hasTopicsCovered dbpedia:prolog;
+	ex:hasTopicsCovered dbpedia:google;
+	ex:hasTopicsCovered dbpedia:google_translate;
+	ex:hasTopicsCovered dbpedia:machine_translation;
+	ex:hasTopicsCovered dbpedia:mcgill_college;
+	ex:hasTopicsCovered dbpedia:generative_adversarial_networks;
+	ex:hasTopicsCovered dbpedia:mon;
+	ex:hasTopicsCovered dbpedia:environment_canada;
+	ex:hasTopicsCovered dbpedia:french;
+	ex:hasTopicsCovered dbpedia:canada;
+	ex:hasTopicsCovered dbpedia:alberta;
+	ex:hasTopicsCovered dbpedia:montréal;
+	ex:hasTopicsCovered dbpedia:gpt;
+	ex:hasTopicsCovered dbpedia:netflix;
+	ex:hasTopicsCovered dbpedia:alan_turing;
+	ex:hasTopicsCovered dbpedia:turing_test;
+
+
+
+dbpedia:comp a ex:Topics;
+	rdfs:label "C";
+	rdfs:seeAlso <http://dbpedia.org/resource/College_of_Osteopathic_Medicine_of_the_Pacific>;
+	.
+
+dbpedia:ai a ex:Topics;
+	rdfs:label "A";
+	rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence>;
+	.
+
+dbpedia:mycin a ex:Topics;
+	rdfs:label "M";
+	rdfs:seeAlso <http://dbpedia.org/resource/Mycin>;
+	.
+
+dbpedia:ai_winter a ex:Topics;
+	rdfs:label "AW";
+	rdfs:seeAlso <http://dbpedia.org/resource/AI_winter>;
+	.
+
+dbpedia:cornell a ex:Topics;
+	rdfs:label "C";
+	rdfs:seeAlso <http://dbpedia.org/resource/Cornell_University>;
+	.
+
+dbpedia:frank_rosenblatt a ex:Topics;
+	rdfs:label "FR";
+	rdfs:seeAlso <http://dbpedia.org/resource/Frank_Rosenblatt>;
+	.
+
+dbpedia:acm a ex:Topics;
+	rdfs:label "A";
+	rdfs:seeAlso <http://dbpedia.org/resource/Association_for_Computing_Machinery>;
+	.
+
+dbpedia:yoshua_bengio a ex:Topics;
+	rdfs:label "YB";
+	rdfs:seeAlso <http://dbpedia.org/resource/Yoshua_Bengio>;
+	.
+
+dbpedia:montreal a ex:Topics;
+	rdfs:label "M";
+	rdfs:seeAlso <http://dbpedia.org/resource/Montreal>;
+	.
+
+dbpedia:geoffrey a ex:Topics;
+	rdfs:label "G";
+	rdfs:seeAlso <http://dbpedia.org/resource/Geoffrey_of_Monmouth>;
+	.
+
+dbpedia:hinton a ex:Topics;
+	rdfs:label "H";
+	rdfs:seeAlso <http://dbpedia.org/resource/Geoffrey_Hinton>;
+	.
+
+dbpedia:toronto a ex:Topics;
+	rdfs:label "T";
+	rdfs:seeAlso <http://dbpedia.org/resource/Toronto>;
+	.
+
+dbpedia:yann_lecun a ex:Topics;
+	rdfs:label "YL";
+	rdfs:seeAlso <http://dbpedia.org/resource/Yann_LeCun>;
+	.
+
+dbpedia:turing_award a ex:Topics;
+	rdfs:label "TA";
+	rdfs:seeAlso <http://dbpedia.org/resource/Turing_Award>;
+	.
+
+dbpedia:deep_learning a ex:Topics;
+	rdfs:label "DL";
+	rdfs:seeAlso <http://dbpedia.org/resource/Deep_learning>;
+	.
+
+dbpedia:marvin_minsky a ex:Topics;
+	rdfs:label "MM";
+	rdfs:seeAlso <http://dbpedia.org/resource/Marvin_Minsky>;
+	.
+
+dbpedia:seymour a ex:Topics;
+	rdfs:label "S";
+	rdfs:seeAlso <http://dbpedia.org/resource/Seymour_railway_station>;
+	.
+
+dbpedia:alpac a ex:Topics;
+	rdfs:label "A";
+	rdfs:seeAlso <http://dbpedia.org/resource/ALPAC>;
+	.
+
+dbpedia:alphago a ex:Topics;
+	rdfs:label "A";
+	rdfs:seeAlso <http://dbpedia.org/resource/AlphaGo>;
+	.
+
+dbpedia:terry_winograd a ex:Topics;
+	rdfs:label "TW";
+	rdfs:seeAlso <http://dbpedia.org/resource/Terry_Winograd>;
+	.
+
+dbpedia:shrdlu a ex:Topics;
+	rdfs:label "S";
+	rdfs:seeAlso <http://dbpedia.org/resource/SHRDLU>;
+	.
+
+dbpedia:english a ex:Topics;
+	rdfs:label "E";
+	rdfs:seeAlso <http://dbpedia.org/resource/English_language>;
+	.
+
+dbpedia:lisp a ex:Topics;
+	rdfs:label "L";
+	rdfs:seeAlso <http://dbpedia.org/resource/Lisp_(programming_language)>;
+	.
+
+dbpedia:imagenet a ex:Topics;
+	rdfs:label "I";
+	rdfs:seeAlso <http://dbpedia.org/resource/ImageNet>;
+	.
+
+dbpedia:joseph_weizenbaum a ex:Topics;
+	rdfs:label "JW";
+	rdfs:seeAlso <http://dbpedia.org/resource/Joseph_Weizenbaum>;
+	.
+
+dbpedia:cortes a ex:Topics;
+	rdfs:label "C";
+	rdfs:seeAlso <http://dbpedia.org/resource/Cortes_Generales>;
+	.
+
+dbpedia:vladimir_vapnik a ex:Topics;
+	rdfs:label "VV";
+	rdfs:seeAlso <http://dbpedia.org/resource/Vladimir_Vapnik>;
+	.
+
+dbpedia:support_vector_machines a ex:Topics;
+	rdfs:label "SVM";
+	rdfs:seeAlso <http://dbpedia.org/resource/Support-vector_machine>;
+	.
+
+dbpedia:svm a ex:Topics;
+	rdfs:label "S";
+	rdfs:seeAlso <http://dbpedia.org/resource/Support-vector_machine>;
+	.
+
+dbpedia:new_york a ex:Topics;
+	rdfs:label "NY";
+	rdfs:seeAlso <http://dbpedia.org/resource/New_York_City>;
+	.
+
+dbpedia:prolog a ex:Topics;
+	rdfs:label "P";
+	rdfs:seeAlso <http://dbpedia.org/resource/Prolog>;
+	.
+
+dbpedia:google a ex:Topics;
+	rdfs:label "G";
+	rdfs:seeAlso <http://dbpedia.org/resource/Google>;
+	.
+
+dbpedia:google_translate a ex:Topics;
+	rdfs:label "GT";
+	rdfs:seeAlso <http://dbpedia.org/resource/Google_Translate>;
+	.
+
+dbpedia:machine_translation a ex:Topics;
+	rdfs:label "MT";
+	rdfs:seeAlso <http://dbpedia.org/resource/Machine_translation>;
+	.
+
+dbpedia:mcgill_college a ex:Topics;
+	rdfs:label "MC";
+	rdfs:seeAlso <http://dbpedia.org/resource/McGill_University>;
+	.
+
+dbpedia:generative_adversarial_networks a ex:Topics;
+	rdfs:label "GAN";
+	rdfs:seeAlso <http://dbpedia.org/resource/Generative_adversarial_network>;
+	.
+
+dbpedia:mon a ex:Topics;
+	rdfs:label "M";
+	rdfs:seeAlso <http://dbpedia.org/resource/Mon_people>;
+	.
+
+dbpedia:environment_canada a ex:Topics;
+	rdfs:label "EC";
+	rdfs:seeAlso <http://dbpedia.org/resource/Environment_and_Climate_Change_Canada>;
+	.
+
+dbpedia:french a ex:Topics;
+	rdfs:label "F";
+	rdfs:seeAlso <http://dbpedia.org/resource/French_language>;
+	.
+
+dbpedia:canada a ex:Topics;
+	rdfs:label "C";
+	rdfs:seeAlso <http://dbpedia.org/resource/Canada>;
+	.
+
+dbpedia:alberta a ex:Topics;
+	rdfs:label "A";
+	rdfs:seeAlso <http://dbpedia.org/resource/University_of_Alberta>;
+	.
+
+dbpedia:montréal a ex:Topics;
+	rdfs:label "M";
+	rdfs:seeAlso <http://dbpedia.org/resource/Montreal>;
+	.
+
+dbpedia:gpt a ex:Topics;
+	rdfs:label "G";
+	rdfs:seeAlso <http://dbpedia.org/resource/GEC_Plessey_Telecommunications>;
+	.
+
+dbpedia:netflix a ex:Topics;
+	rdfs:label "N";
+	rdfs:seeAlso <http://dbpedia.org/resource/Netflix>;
+	.
+
+dbpedia:alan_turing a ex:Topics;
+	rdfs:label "AT";
+	rdfs:seeAlso <http://dbpedia.org/resource/Alan_Turing>;
+	.
+
+dbpedia:turing_test a ex:Topics;
+	rdfs:label "TT";
+	rdfs:seeAlso <http://dbpedia.org/resource/Turing_test>;
+	.
+

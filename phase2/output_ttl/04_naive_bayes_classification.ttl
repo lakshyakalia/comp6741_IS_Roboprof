@@ -1,0 +1,213 @@
+	ex:hasTopicsCovered dbpedia:ml;
+	ex:hasTopicsCovered dbpedia:machine_learning;
+	ex:hasTopicsCovered dbpedia:arthur;
+	ex:hasTopicsCovered dbpedia:reinforcement_learning;
+	ex:hasTopicsCovered dbpedia:ai;
+	ex:hasTopicsCovered dbpedia:data_mining;
+	ex:hasTopicsCovered dbpedia:kdd;
+	ex:hasTopicsCovered dbpedia:unsupervised;
+	ex:hasTopicsCovered dbpedia:linear_regression;
+	ex:hasTopicsCovered dbpedia:knn;
+	ex:hasTopicsCovered dbpedia:a2;
+	ex:hasTopicsCovered dbpedia:a3;
+	ex:hasTopicsCovered dbpedia:a4;
+	ex:hasTopicsCovered dbpedia:toothache;
+	ex:hasTopicsCovered dbpedia:montreal;
+	ex:hasTopicsCovered dbpedia:a_31;
+	ex:hasTopicsCovered dbpedia:side_effect;
+	ex:hasTopicsCovered dbpedia:h2;
+	ex:hasTopicsCovered dbpedia:h3;
+	ex:hasTopicsCovered dbpedia:tomorrow;
+	ex:hasTopicsCovered dbpedia:bayesian;
+	ex:hasTopicsCovered dbpedia:spam;
+	ex:hasTopicsCovered dbpedia:bayes_classifier;
+	ex:hasTopicsCovered dbpedia:naïve_bayes;
+	ex:hasTopicsCovered dbpedia:algorithm_1;
+	ex:hasTopicsCovered dbpedia:ham;
+	ex:hasTopicsCovered dbpedia:cj;
+	ex:hasTopicsCovered dbpedia:referee;
+	ex:hasTopicsCovered dbpedia:american;
+	ex:hasTopicsCovered dbpedia:bureau;
+	ex:hasTopicsCovered dbpedia:target;
+	ex:hasTopicsCovered dbpedia:x4;
+	ex:hasTopicsCovered dbpedia:x5;
+	ex:hasTopicsCovered dbpedia:x6;
+	ex:hasTopicsCovered dbpedia:x2;
+
+
+
+dbpedia:ml a ex:Topics;
+	rdfs:label "M";
+	rdfs:seeAlso <http://dbpedia.org/resource/Machine_learning>;
+	.
+
+dbpedia:machine_learning a ex:Topics;
+	rdfs:label "ML";
+	rdfs:seeAlso <http://dbpedia.org/resource/Machine_learning>;
+	.
+
+dbpedia:arthur a ex:Topics;
+	rdfs:label "A";
+	rdfs:seeAlso <http://dbpedia.org/resource/King_Arthur>;
+	.
+
+dbpedia:reinforcement_learning a ex:Topics;
+	rdfs:label "RL";
+	rdfs:seeAlso <http://dbpedia.org/resource/Reinforcement_learning>;
+	.
+
+dbpedia:ai a ex:Topics;
+	rdfs:label "A";
+	rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence>;
+	.
+
+dbpedia:data_mining a ex:Topics;
+	rdfs:label "DM";
+	rdfs:seeAlso <http://dbpedia.org/resource/Data_mining>;
+	.
+
+dbpedia:kdd a ex:Topics;
+	rdfs:label "K";
+	rdfs:seeAlso <http://dbpedia.org/resource/Data_mining>;
+	.
+
+dbpedia:unsupervised a ex:Topics;
+	rdfs:label "U";
+	rdfs:seeAlso <http://dbpedia.org/resource/Unsupervised_learning>;
+	.
+
+dbpedia:linear_regression a ex:Topics;
+	rdfs:label "LR";
+	rdfs:seeAlso <http://dbpedia.org/resource/Linear_regression>;
+	.
+
+dbpedia:knn a ex:Topics;
+	rdfs:label "K";
+	rdfs:seeAlso <http://dbpedia.org/resource/K-nearest_neighbors_algorithm>;
+	.
+
+dbpedia:a2 a ex:Topics;
+	rdfs:label "A";
+	rdfs:seeAlso <http://dbpedia.org/resource/Bundesautobahn_2>;
+	.
+
+dbpedia:a3 a ex:Topics;
+	rdfs:label "A";
+	rdfs:seeAlso <http://dbpedia.org/resource/Audi_A3>;
+	.
+
+dbpedia:a4 a ex:Topics;
+	rdfs:label "A";
+	rdfs:seeAlso <http://dbpedia.org/resource/ISO_216>;
+	.
+
+dbpedia:toothache a ex:Topics;
+	rdfs:label "T";
+	rdfs:seeAlso <http://dbpedia.org/resource/Toothache>;
+	.
+
+dbpedia:montreal a ex:Topics;
+	rdfs:label "M";
+	rdfs:seeAlso <http://dbpedia.org/resource/Urban_agglomeration_of_Montreal>;
+	.
+
+dbpedia:a_31 a ex:Topics;
+	rdfs:label "A3";
+	rdfs:seeAlso <http://dbpedia.org/resource/Bundesautobahn_31>;
+	.
+
+dbpedia:side_effect a ex:Topics;
+	rdfs:label "SE";
+	rdfs:seeAlso <http://dbpedia.org/resource/Powerslam>;
+	.
+
+dbpedia:h2 a ex:Topics;
+	rdfs:label "H";
+	rdfs:seeAlso <http://dbpedia.org/resource/Hydrogen>;
+	.
+
+dbpedia:h3 a ex:Topics;
+	rdfs:label "H";
+	rdfs:seeAlso <http://dbpedia.org/resource/Histone_H3>;
+	.
+
+dbpedia:tomorrow a ex:Topics;
+	rdfs:label "T";
+	rdfs:seeAlso <http://dbpedia.org/resource/The_Tomorrow_Show>;
+	.
+
+dbpedia:bayesian a ex:Topics;
+	rdfs:label "B";
+	rdfs:seeAlso <http://dbpedia.org/resource/Bayesian_inference>;
+	.
+
+dbpedia:spam a ex:Topics;
+	rdfs:label "S";
+	rdfs:seeAlso <http://dbpedia.org/resource/Spamming>;
+	.
+
+dbpedia:bayes_classifier a ex:Topics;
+	rdfs:label "BC";
+	rdfs:seeAlso <http://dbpedia.org/resource/Bayes_classifier>;
+	.
+
+dbpedia:naïve_bayes a ex:Topics;
+	rdfs:label "NB";
+	rdfs:seeAlso <http://dbpedia.org/resource/Naive_Bayes_classifier>;
+	.
+
+dbpedia:algorithm_1 a ex:Topics;
+	rdfs:label "A1";
+	rdfs:seeAlso <http://dbpedia.org/resource/XTR>;
+	.
+
+dbpedia:ham a ex:Topics;
+	rdfs:label "H";
+	rdfs:seeAlso <http://dbpedia.org/resource/Ham>;
+	.
+
+dbpedia:cj a ex:Topics;
+	rdfs:label "C";
+	rdfs:seeAlso <http://dbpedia.org/resource/Chief_Justice_of_Australia>;
+	.
+
+dbpedia:referee a ex:Topics;
+	rdfs:label "R";
+	rdfs:seeAlso <http://dbpedia.org/resource/Referee>;
+	.
+
+dbpedia:american a ex:Topics;
+	rdfs:label "A";
+	rdfs:seeAlso <http://dbpedia.org/resource/United_States>;
+	.
+
+dbpedia:bureau a ex:Topics;
+	rdfs:label "B";
+	rdfs:seeAlso <http://dbpedia.org/resource/Federal_Bureau_of_Investigation>;
+	.
+
+dbpedia:target a ex:Topics;
+	rdfs:label "T";
+	rdfs:seeAlso <http://dbpedia.org/resource/Target_Corporation>;
+	.
+
+dbpedia:x4 a ex:Topics;
+	rdfs:label "X";
+	rdfs:seeAlso <http://dbpedia.org/resource/CXCR4>;
+	.
+
+dbpedia:x5 a ex:Topics;
+	rdfs:label "X";
+	rdfs:seeAlso <http://dbpedia.org/resource/BMW_X5>;
+	.
+
+dbpedia:x6 a ex:Topics;
+	rdfs:label "X";
+	rdfs:seeAlso <http://dbpedia.org/resource/BMW_X6>;
+	.
+
+dbpedia:x2 a ex:Topics;
+	rdfs:label "X";
+	rdfs:seeAlso <http://dbpedia.org/resource/Modem>;
+	.
+

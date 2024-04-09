@@ -1,0 +1,21 @@
+	ex:hasTopicsCovered dbpedia:alpha-beta;
+	ex:hasTopicsCovered dbpedia:max;
+	ex:hasTopicsCovered dbpedia:tic-tac-toe;
+
+
+
+dbpedia:alpha-beta a ex:Topics;
+	rdfs:label "A";
+	rdfs:seeAlso <http://dbpedia.org/resource/Alpha–beta_pruning>;
+	.
+
+dbpedia:max a ex:Topics;
+	rdfs:label "M";
+	rdfs:seeAlso <http://dbpedia.org/resource/MAX_Light_Rail>;
+	.
+
+dbpedia:tic-tac-toe a ex:Topics;
+	rdfs:label "T";
+	rdfs:seeAlso <http://dbpedia.org/resource/Tic-tac-toe>;
+	.
+

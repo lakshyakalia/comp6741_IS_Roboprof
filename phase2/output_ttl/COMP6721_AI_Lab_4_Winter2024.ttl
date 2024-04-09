@@ -1,0 +1,45 @@
+	ex:hasTopicsCovered dbpedia:naïve_bayes;
+	ex:hasTopicsCovered dbpedia:jack;
+	ex:hasTopicsCovered dbpedia:kami;
+	ex:hasTopicsCovered dbpedia:google;
+	ex:hasTopicsCovered dbpedia:bayes_classifier;
+	ex:hasTopicsCovered dbpedia:moodle;
+	ex:hasTopicsCovered dbpedia:spam;
+
+
+
+dbpedia:naïve_bayes a ex:Topics;
+	rdfs:label "NB";
+	rdfs:seeAlso <http://dbpedia.org/resource/Naive_Bayes_classifier>;
+	.
+
+dbpedia:jack a ex:Topics;
+	rdfs:label "J";
+	rdfs:seeAlso <http://dbpedia.org/resource/Jack_Harkness>;
+	.
+
+dbpedia:kami a ex:Topics;
+	rdfs:label "K";
+	rdfs:seeAlso <http://dbpedia.org/resource/Kami>;
+	.
+
+dbpedia:google a ex:Topics;
+	rdfs:label "G";
+	rdfs:seeAlso <http://dbpedia.org/resource/Google>;
+	.
+
+dbpedia:bayes_classifier a ex:Topics;
+	rdfs:label "BC";
+	rdfs:seeAlso <http://dbpedia.org/resource/Bayes_classifier>;
+	.
+
+dbpedia:moodle a ex:Topics;
+	rdfs:label "M";
+	rdfs:seeAlso <http://dbpedia.org/resource/Moodle>;
+	.
+
+dbpedia:spam a ex:Topics;
+	rdfs:label "S";
+	rdfs:seeAlso <http://dbpedia.org/resource/Spamming>;
+	.
+

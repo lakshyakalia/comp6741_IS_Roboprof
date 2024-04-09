@@ -1,0 +1,15 @@
+	ex:hasTopicsCovered dbpedia:g1;
+	ex:hasTopicsCovered dbpedia:frisbee;
+
+
+
+dbpedia:g1 a ex:Topics;
+	rdfs:label "G";
+	rdfs:seeAlso <http://dbpedia.org/resource/G1_phase>;
+	.
+
+dbpedia:frisbee a ex:Topics;
+	rdfs:label "F";
+	rdfs:seeAlso <http://dbpedia.org/resource/Frisbee>;
+	.
+
