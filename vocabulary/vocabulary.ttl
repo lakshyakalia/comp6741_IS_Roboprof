@@ -7,9 +7,9 @@
 @prefix isr_slides:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/slides/>.
 @prefix isr_labs:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/labs/>.
 @prefix isr_tutorials:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/tutorials/>.
-@prefix aai_reading_materials:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/AI_material/ReadingMaterials>.
-@prefix aai_labs:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/AI_material/Labs>.
-@prefix aai_slides:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/AI_material/Lectures>.
+@prefix aai_reading_materials:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/AI_material/ReadingMaterials/>.
+@prefix aai_labs:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/AI_material/Labs/>.
+@prefix aai_slides:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/AI_material/Lectures/>.
 
 #University Class
 ex:University a owl:Class;
@@ -472,6 +472,7 @@ aai_slides:01_intro_to_ai_and_history a ex:Slides;
 	ex:hasTopicsCovered dbpedia:ret;
 	ex:hasTopicsCovered dbpedia:weizenbaum;
 	ex:hasTopicsCovered dbpedia:algorithm_1;
+    ex:hasTopicsCovered dbpedia:google;
     .
 
 aai_slides:02_state_space_search a ex:Slides;
@@ -578,6 +579,7 @@ ex:APPLIED_ARTIFICIAL_INTELLIGENCE a ex:Course;
 	ex:courseNumber "6721"^^xsd:integer;
 	ex:courseCredit "4"^^xsd:integer;
 	ex:hasLecture ex:AI_Lecture_One;
+    ex:hasLecture ex:AI_Lecture_Two;
 	ex:courseDescription "LEC,Never Taken/Not Registered: COMP472";
 	.
 
