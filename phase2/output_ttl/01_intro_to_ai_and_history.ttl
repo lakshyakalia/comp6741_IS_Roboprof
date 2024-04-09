@@ -1,0 +1,285 @@
+	ex:hasTopicsCovered ex:ai;
+	ex:hasTopicsCovered ex:artificial_intelligence;
+	ex:hasTopicsCovered ex:deep_learning;
+	ex:hasTopicsCovered ex:kurzweil;
+	ex:hasTopicsCovered ex:rich;
+	ex:hasTopicsCovered ex:reflex;
+	ex:hasTopicsCovered ex:continuum;
+	ex:hasTopicsCovered ex:criticize;
+	ex:hasTopicsCovered ex:ibm_deep_blue;
+	ex:hasTopicsCovered ex:kasparov;
+	ex:hasTopicsCovered ex:deep_blue;
+	ex:hasTopicsCovered ex:deep_fritz;
+	ex:hasTopicsCovered ex:kramnik;
+	ex:hasTopicsCovered ex:intel;
+	ex:hasTopicsCovered ex:ibm;
+	ex:hasTopicsCovered ex:brad_rutter;
+	ex:hasTopicsCovered ex:ken_jennings;
+	ex:hasTopicsCovered ex:natural_language_processing;
+	ex:hasTopicsCovered ex:information_retrieval;
+	ex:hasTopicsCovered ex:knowledge_representation;
+	ex:hasTopicsCovered ex:machine_learning;
+	ex:hasTopicsCovered ex:alan_turing;
+	ex:hasTopicsCovered ex:the_turing_test;
+	ex:hasTopicsCovered ex:nlp;
+	ex:hasTopicsCovered ex:turing_test;
+	ex:hasTopicsCovered ex:lotus_development;
+	ex:hasTopicsCovered ex:ray_kurzweil;
+	ex:hasTopicsCovered ex:english;
+	ex:hasTopicsCovered ex:captcha;
+	ex:hasTopicsCovered ex:expert_systems;
+	ex:hasTopicsCovered ex:world_war_ii;
+	ex:hasTopicsCovered ex:russian;
+	ex:hasTopicsCovered ex:ocr;
+	ex:hasTopicsCovered ex:optical_character_recognition;
+	ex:hasTopicsCovered ex:data_mining;
+	ex:hasTopicsCovered ex:winograd;
+	ex:hasTopicsCovered ex:shrdlu;
+	ex:hasTopicsCovered ex:english_english;
+	ex:hasTopicsCovered ex:lisp;
+	ex:hasTopicsCovered ex:ml;
+	ex:hasTopicsCovered ex:java;
+	ex:hasTopicsCovered ex:british;
+	ex:hasTopicsCovered ex:ai_winter;
+	ex:hasTopicsCovered ex:joseph_weizenbaum;
+	ex:hasTopicsCovered ex:ret;
+	ex:hasTopicsCovered ex:weizenbaum;
+	ex:hasTopicsCovered ex:algorithm_1;
+
+
+
+ex:ai a ex:Topics;
+	rdfs:label "A";
+	rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence>;
+	.
+
+ex:artificial_intelligence a ex:Topics;
+	rdfs:label "AI";
+	rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence>;
+	.
+
+ex:deep_learning a ex:Topics;
+	rdfs:label "DL";
+	rdfs:seeAlso <http://dbpedia.org/resource/Deep_learning>;
+	.
+
+ex:kurzweil a ex:Topics;
+	rdfs:label "K";
+	rdfs:seeAlso <http://dbpedia.org/resource/Ray_Kurzweil>;
+	.
+
+ex:rich a ex:Topics;
+	rdfs:label "R";
+	rdfs:seeAlso <http://dbpedia.org/resource/Rich_Alvarez>;
+	.
+
+ex:reflex a ex:Topics;
+	rdfs:label "R";
+	rdfs:seeAlso <http://dbpedia.org/resource/Reflex>;
+	.
+
+ex:continuum a ex:Topics;
+	rdfs:label "C";
+	rdfs:seeAlso <http://dbpedia.org/resource/Continuum_International_Publishing_Group>;
+	.
+
+ex:criticize a ex:Topics;
+	rdfs:label "C";
+	rdfs:seeAlso <http://dbpedia.org/resource/Criticize_(song)>;
+	.
+
+ex:ibm_deep_blue a ex:Topics;
+	rdfs:label "IDB";
+	rdfs:seeAlso <http://dbpedia.org/resource/Deep_Blue_(chess_computer)>;
+	.
+
+ex:kasparov a ex:Topics;
+	rdfs:label "K";
+	rdfs:seeAlso <http://dbpedia.org/resource/Garry_Kasparov>;
+	.
+
+ex:deep_blue a ex:Topics;
+	rdfs:label "DB";
+	rdfs:seeAlso <http://dbpedia.org/resource/The_Blue_Planet>;
+	.
+
+ex:deep_fritz a ex:Topics;
+	rdfs:label "DF";
+	rdfs:seeAlso <http://dbpedia.org/resource/Fritz_(chess)>;
+	.
+
+ex:kramnik a ex:Topics;
+	rdfs:label "K";
+	rdfs:seeAlso <http://dbpedia.org/resource/Vladimir_Kramnik>;
+	.
+
+ex:intel a ex:Topics;
+	rdfs:label "I";
+	rdfs:seeAlso <http://dbpedia.org/resource/Intel>;
+	.
+
+ex:ibm a ex:Topics;
+	rdfs:label "I";
+	rdfs:seeAlso <http://dbpedia.org/resource/IBM>;
+	.
+
+ex:brad_rutter a ex:Topics;
+	rdfs:label "BR";
+	rdfs:seeAlso <http://dbpedia.org/resource/Brad_Rutter>;
+	.
+
+ex:ken_jennings a ex:Topics;
+	rdfs:label "KJ";
+	rdfs:seeAlso <http://dbpedia.org/resource/Ken_Jennings>;
+	.
+
+ex:natural_language_processing a ex:Topics;
+	rdfs:label "NLP";
+	rdfs:seeAlso <http://dbpedia.org/resource/Natural_language_processing>;
+	.
+
+ex:information_retrieval a ex:Topics;
+	rdfs:label "IR";
+	rdfs:seeAlso <http://dbpedia.org/resource/Information_retrieval>;
+	.
+
+ex:knowledge_representation a ex:Topics;
+	rdfs:label "KR";
+	rdfs:seeAlso <http://dbpedia.org/resource/Knowledge_representation_and_reasoning>;
+	.
+
+ex:machine_learning a ex:Topics;
+	rdfs:label "ML";
+	rdfs:seeAlso <http://dbpedia.org/resource/Machine_learning>;
+	.
+
+ex:alan_turing a ex:Topics;
+	rdfs:label "AT";
+	rdfs:seeAlso <http://dbpedia.org/resource/Alan_Turing>;
+	.
+
+ex:the_turing_test a ex:Topics;
+	rdfs:label "TTT";
+	rdfs:seeAlso <http://dbpedia.org/resource/Turing_test>;
+	.
+
+ex:nlp a ex:Topics;
+	rdfs:label "N";
+	rdfs:seeAlso <http://dbpedia.org/resource/Natural_language_processing>;
+	.
+
+ex:turing_test a ex:Topics;
+	rdfs:label "TT";
+	rdfs:seeAlso <http://dbpedia.org/resource/Turing_test>;
+	.
+
+ex:lotus_development a ex:Topics;
+	rdfs:label "LD";
+	rdfs:seeAlso <http://dbpedia.org/resource/Lotus_Software>;
+	.
+
+ex:ray_kurzweil a ex:Topics;
+	rdfs:label "RK";
+	rdfs:seeAlso <http://dbpedia.org/resource/Ray_Kurzweil>;
+	.
+
+ex:english a ex:Topics;
+	rdfs:label "E";
+	rdfs:seeAlso <http://dbpedia.org/resource/English_language>;
+	.
+
+ex:captcha a ex:Topics;
+	rdfs:label "C";
+	rdfs:seeAlso <http://dbpedia.org/resource/CAPTCHA>;
+	.
+
+ex:expert_systems a ex:Topics;
+	rdfs:label "ES";
+	rdfs:seeAlso <http://dbpedia.org/resource/Expert_system>;
+	.
+
+ex:world_war_ii a ex:Topics;
+	rdfs:label "WWI";
+	rdfs:seeAlso <http://dbpedia.org/resource/World_War_II>;
+	.
+
+ex:russian a ex:Topics;
+	rdfs:label "R";
+	rdfs:seeAlso <http://dbpedia.org/resource/Russian_language>;
+	.
+
+ex:ocr a ex:Topics;
+	rdfs:label "O";
+	rdfs:seeAlso <http://dbpedia.org/resource/Optical_character_recognition>;
+	.
+
+ex:optical_character_recognition a ex:Topics;
+	rdfs:label "OCR";
+	rdfs:seeAlso <http://dbpedia.org/resource/Optical_character_recognition>;
+	.
+
+ex:data_mining a ex:Topics;
+	rdfs:label "DM";
+	rdfs:seeAlso <http://dbpedia.org/resource/Data_mining>;
+	.
+
+ex:winograd a ex:Topics;
+	rdfs:label "W";
+	rdfs:seeAlso <http://dbpedia.org/resource/Terry_Winograd>;
+	.
+
+ex:shrdlu a ex:Topics;
+	rdfs:label "S";
+	rdfs:seeAlso <http://dbpedia.org/resource/SHRDLU>;
+	.
+
+ex:english_english a ex:Topics;
+	rdfs:label "EE";
+	rdfs:seeAlso <http://dbpedia.org/resource/English_language_in_England>;
+	.
+
+ex:lisp a ex:Topics;
+	rdfs:label "L";
+	rdfs:seeAlso <http://dbpedia.org/resource/Common_Lisp>;
+	.
+
+ex:ml a ex:Topics;
+	rdfs:label "M";
+	rdfs:seeAlso <http://dbpedia.org/resource/Machine_learning>;
+	.
+
+ex:java a ex:Topics;
+	rdfs:label "J";
+	rdfs:seeAlso <http://dbpedia.org/resource/Java_virtual_machine>;
+	.
+
+ex:british a ex:Topics;
+	rdfs:label "B";
+	rdfs:seeAlso <http://dbpedia.org/resource/United_Kingdom>;
+	.
+
+ex:ai_winter a ex:Topics;
+	rdfs:label "AW";
+	rdfs:seeAlso <http://dbpedia.org/resource/AI_winter>;
+	.
+
+ex:joseph_weizenbaum a ex:Topics;
+	rdfs:label "JW";
+	rdfs:seeAlso <http://dbpedia.org/resource/Joseph_Weizenbaum>;
+	.
+
+ex:ret a ex:Topics;
+	rdfs:label "R";
+	rdfs:seeAlso <http://dbpedia.org/resource/RET_proto-oncogene>;
+	.
+
+ex:weizenbaum a ex:Topics;
+	rdfs:label "W";
+	rdfs:seeAlso <http://dbpedia.org/resource/Joseph_Weizenbaum>;
+	.
+
+ex:algorithm_1 a ex:Topics;
+	rdfs:label "A1";
+	rdfs:seeAlso <http://dbpedia.org/resource/XTR>;
+	.
+

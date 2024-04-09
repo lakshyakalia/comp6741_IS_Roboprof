@@ -1,0 +1,237 @@
+	ex:hasTopicsCovered ex:ai;
+	ex:hasTopicsCovered ex:artificial_intelligence;
+	ex:hasTopicsCovered ex:decision_trees;
+	ex:hasTopicsCovered ex:k-means;
+	ex:hasTopicsCovered ex:russell;
+	ex:hasTopicsCovered ex:ml;
+	ex:hasTopicsCovered ex:unsupervised;
+	ex:hasTopicsCovered ex:netflix;
+	ex:hasTopicsCovered ex:machine_learning;
+	ex:hasTopicsCovered ex:alison;
+	ex:hasTopicsCovered ex:id3;
+	ex:hasTopicsCovered ex:gail;
+	ex:hasTopicsCovered ex:french;
+	ex:hasTopicsCovered ex:italian;
+	ex:hasTopicsCovered ex:thai;
+	ex:hasTopicsCovered ex:ockham;
+	ex:hasTopicsCovered ex:tom_mitchell;
+	ex:hasTopicsCovered ex:f1;
+	ex:hasTopicsCovered ex:f4;
+	ex:hasTopicsCovered ex:shannon;
+	ex:hasTopicsCovered ex:rv;
+	ex:hasTopicsCovered ex:entropy;
+	ex:hasTopicsCovered ex:coin;
+	ex:hasTopicsCovered ex:red_circle;
+	ex:hasTopicsCovered ex:red_square;
+	ex:hasTopicsCovered ex:blue_circle;
+	ex:hasTopicsCovered ex:the_restaurant;
+	ex:hasTopicsCovered ex:tp;
+	ex:hasTopicsCovered ex:hm;
+	ex:hasTopicsCovered ex:mitchell;
+	ex:hasTopicsCovered ex:overfitting;
+	ex:hasTopicsCovered ex:complicated;
+	ex:hasTopicsCovered ex:john_snow;
+	ex:hasTopicsCovered ex:london;
+	ex:hasTopicsCovered ex:nina;
+	ex:hasTopicsCovered ex:x2;
+	ex:hasTopicsCovered ex:x4;
+	ex:hasTopicsCovered ex:x5;
+	ex:hasTopicsCovered ex:euclidean;
+
+
+
+ex:ai a ex:Topics;
+	rdfs:label "A";
+	rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence>;
+	.
+
+ex:artificial_intelligence a ex:Topics;
+	rdfs:label "AI";
+	rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence>;
+	.
+
+ex:decision_trees a ex:Topics;
+	rdfs:label "DT";
+	rdfs:seeAlso <http://dbpedia.org/resource/Decision_tree_learning>;
+	.
+
+ex:k-means a ex:Topics;
+	rdfs:label "K";
+	rdfs:seeAlso <http://dbpedia.org/resource/K-means_clustering>;
+	.
+
+ex:russell a ex:Topics;
+	rdfs:label "R";
+	rdfs:seeAlso <http://dbpedia.org/resource/Bertrand_Russell>;
+	.
+
+ex:ml a ex:Topics;
+	rdfs:label "M";
+	rdfs:seeAlso <http://dbpedia.org/resource/Machine_learning>;
+	.
+
+ex:unsupervised a ex:Topics;
+	rdfs:label "U";
+	rdfs:seeAlso <http://dbpedia.org/resource/Unsupervised_learning>;
+	.
+
+ex:netflix a ex:Topics;
+	rdfs:label "N";
+	rdfs:seeAlso <http://dbpedia.org/resource/Netflix>;
+	.
+
+ex:machine_learning a ex:Topics;
+	rdfs:label "ML";
+	rdfs:seeAlso <http://dbpedia.org/resource/Machine_learning>;
+	.
+
+ex:alison a ex:Topics;
+	rdfs:label "A";
+	rdfs:seeAlso <http://dbpedia.org/resource/Alison_DiLaurentis>;
+	.
+
+ex:id3 a ex:Topics;
+	rdfs:label "I";
+	rdfs:seeAlso <http://dbpedia.org/resource/ID3_algorithm>;
+	.
+
+ex:gail a ex:Topics;
+	rdfs:label "G";
+	rdfs:seeAlso <http://dbpedia.org/resource/Gail_McIntyre>;
+	.
+
+ex:french a ex:Topics;
+	rdfs:label "F";
+	rdfs:seeAlso <http://dbpedia.org/resource/French_language>;
+	.
+
+ex:italian a ex:Topics;
+	rdfs:label "I";
+	rdfs:seeAlso <http://dbpedia.org/resource/Italian_language>;
+	.
+
+ex:thai a ex:Topics;
+	rdfs:label "T";
+	rdfs:seeAlso <http://dbpedia.org/resource/Thai_cuisine>;
+	.
+
+ex:ockham a ex:Topics;
+	rdfs:label "O";
+	rdfs:seeAlso <http://dbpedia.org/resource/William_of_Ockham>;
+	.
+
+ex:tom_mitchell a ex:Topics;
+	rdfs:label "TM";
+	rdfs:seeAlso <http://dbpedia.org/resource/Tom_M._Mitchell>;
+	.
+
+ex:f1 a ex:Topics;
+	rdfs:label "F";
+	rdfs:seeAlso <http://dbpedia.org/resource/Fujita_scale>;
+	.
+
+ex:f4 a ex:Topics;
+	rdfs:label "F";
+	rdfs:seeAlso <http://dbpedia.org/resource/Fujita_scale>;
+	.
+
+ex:shannon a ex:Topics;
+	rdfs:label "S";
+	rdfs:seeAlso <http://dbpedia.org/resource/Claude_Shannon>;
+	.
+
+ex:rv a ex:Topics;
+	rdfs:label "R";
+	rdfs:seeAlso <http://dbpedia.org/resource/Recreational_vehicle>;
+	.
+
+ex:entropy a ex:Topics;
+	rdfs:label "E";
+	rdfs:seeAlso <http://dbpedia.org/resource/Entropy>;
+	.
+
+ex:coin a ex:Topics;
+	rdfs:label "C";
+	rdfs:seeAlso <http://dbpedia.org/resource/Coin>;
+	.
+
+ex:red_circle a ex:Topics;
+	rdfs:label "RC";
+	rdfs:seeAlso <http://dbpedia.org/resource/Dark_Circle_Comics>;
+	.
+
+ex:red_square a ex:Topics;
+	rdfs:label "RS";
+	rdfs:seeAlso <http://dbpedia.org/resource/Red_Square>;
+	.
+
+ex:blue_circle a ex:Topics;
+	rdfs:label "BC";
+	rdfs:seeAlso <http://dbpedia.org/resource/Blue_Circle_Industries>;
+	.
+
+ex:the_restaurant a ex:Topics;
+	rdfs:label "TR";
+	rdfs:seeAlso <http://dbpedia.org/resource/The_Restaurant_(Irish_TV_series)>;
+	.
+
+ex:tp a ex:Topics;
+	rdfs:label "T";
+	rdfs:seeAlso <http://dbpedia.org/resource/Toilet_paper>;
+	.
+
+ex:hm a ex:Topics;
+	rdfs:label "H";
+	rdfs:seeAlso <http://dbpedia.org/resource/Houghton_Mifflin_Harcourt>;
+	.
+
+ex:mitchell a ex:Topics;
+	rdfs:label "M";
+	rdfs:seeAlso <http://dbpedia.org/resource/Mitchell_family>;
+	.
+
+ex:overfitting a ex:Topics;
+	rdfs:label "O";
+	rdfs:seeAlso <http://dbpedia.org/resource/Overfitting>;
+	.
+
+ex:complicated a ex:Topics;
+	rdfs:label "C";
+	rdfs:seeAlso <http://dbpedia.org/resource/Complicated_(Avril_Lavigne_song)>;
+	.
+
+ex:john_snow a ex:Topics;
+	rdfs:label "JS";
+	rdfs:seeAlso <http://dbpedia.org/resource/John_Snow>;
+	.
+
+ex:london a ex:Topics;
+	rdfs:label "L";
+	rdfs:seeAlso <http://dbpedia.org/resource/London>;
+	.
+
+ex:nina a ex:Topics;
+	rdfs:label "N";
+	rdfs:seeAlso <http://dbpedia.org/resource/Al_Hirschfeld>;
+	.
+
+ex:x2 a ex:Topics;
+	rdfs:label "X";
+	rdfs:seeAlso <http://dbpedia.org/resource/Modem>;
+	.
+
+ex:x4 a ex:Topics;
+	rdfs:label "X";
+	rdfs:seeAlso <http://dbpedia.org/resource/CXCR4>;
+	.
+
+ex:x5 a ex:Topics;
+	rdfs:label "X";
+	rdfs:seeAlso <http://dbpedia.org/resource/BMW_X5>;
+	.
+
+ex:euclidean a ex:Topics;
+	rdfs:label "E";
+	rdfs:seeAlso <http://dbpedia.org/resource/Euclidean_distance>;
+	.
+

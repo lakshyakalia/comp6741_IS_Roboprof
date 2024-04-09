@@ -1,0 +1,129 @@
+	ex:hasTopicsCovered ex:tetris;
+	ex:hasTopicsCovered ex:google;
+	ex:hasTopicsCovered ex:heuristics;
+	ex:hasTopicsCovered ex:expert_systems;
+	ex:hasTopicsCovered ex:3x3;
+	ex:hasTopicsCovered ex:sam_loyd;
+	ex:hasTopicsCovered ex:concordia;
+	ex:hasTopicsCovered ex:node_2;
+	ex:hasTopicsCovered ex:dfs;
+	ex:hasTopicsCovered ex:depth-limited_search;
+	ex:hasTopicsCovered ex:heuristic;
+	ex:hasTopicsCovered ex:heureka;
+	ex:hasTopicsCovered ex:rich;
+	ex:hasTopicsCovered ex:artificial_intelligence;
+	ex:hasTopicsCovered ex:mcgraw-hill;
+	ex:hasTopicsCovered ex:general;
+	ex:hasTopicsCovered ex:bad;
+	ex:hasTopicsCovered ex:manhattan;
+	ex:hasTopicsCovered ex:a_8;
+	ex:hasTopicsCovered ex:puzzle;
+	ex:hasTopicsCovered ex:algorithm;
+
+
+
+ex:tetris a ex:Topics;
+	rdfs:label "T";
+	rdfs:seeAlso <http://dbpedia.org/resource/Tetris>;
+	.
+
+ex:google a ex:Topics;
+	rdfs:label "G";
+	rdfs:seeAlso <http://dbpedia.org/resource/Google>;
+	.
+
+ex:heuristics a ex:Topics;
+	rdfs:label "H";
+	rdfs:seeAlso <http://dbpedia.org/resource/Heuristic>;
+	.
+
+ex:expert_systems a ex:Topics;
+	rdfs:label "ES";
+	rdfs:seeAlso <http://dbpedia.org/resource/Expert_system>;
+	.
+
+ex:3x3 a ex:Topics;
+	rdfs:label "3";
+	rdfs:seeAlso <http://dbpedia.org/resource/3x3_basketball>;
+	.
+
+ex:sam_loyd a ex:Topics;
+	rdfs:label "SL";
+	rdfs:seeAlso <http://dbpedia.org/resource/Sam_Loyd>;
+	.
+
+ex:concordia a ex:Topics;
+	rdfs:label "C";
+	rdfs:seeAlso <http://dbpedia.org/resource/Concordia_University>;
+	.
+
+ex:node_2 a ex:Topics;
+	rdfs:label "N2";
+	rdfs:seeAlso <http://dbpedia.org/resource/Harmony_(ISS_module)>;
+	.
+
+ex:dfs a ex:Topics;
+	rdfs:label "D";
+	rdfs:seeAlso <http://dbpedia.org/resource/Depth-first_search>;
+	.
+
+ex:depth-limited_search a ex:Topics;
+	rdfs:label "DS";
+	rdfs:seeAlso <http://dbpedia.org/resource/Iterative_deepening_depth-first_search>;
+	.
+
+ex:heuristic a ex:Topics;
+	rdfs:label "H";
+	rdfs:seeAlso <http://dbpedia.org/resource/Heuristic>;
+	.
+
+ex:heureka a ex:Topics;
+	rdfs:label "H";
+	rdfs:seeAlso <http://dbpedia.org/resource/Heureka_(science_center)>;
+	.
+
+ex:rich a ex:Topics;
+	rdfs:label "R";
+	rdfs:seeAlso <http://dbpedia.org/resource/Rich_Alvarez>;
+	.
+
+ex:artificial_intelligence a ex:Topics;
+	rdfs:label "AI";
+	rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence>;
+	.
+
+ex:mcgraw-hill a ex:Topics;
+	rdfs:label "M";
+	rdfs:seeAlso <http://dbpedia.org/resource/McGraw-Hill_Education>;
+	.
+
+ex:general a ex:Topics;
+	rdfs:label "G";
+	rdfs:seeAlso <http://dbpedia.org/resource/General_officer>;
+	.
+
+ex:bad a ex:Topics;
+	rdfs:label "B";
+	rdfs:seeAlso <http://dbpedia.org/resource/Spa_town>;
+	.
+
+ex:manhattan a ex:Topics;
+	rdfs:label "M";
+	rdfs:seeAlso <http://dbpedia.org/resource/New_York_City>;
+	.
+
+ex:a_8 a ex:Topics;
+	rdfs:label "A8";
+	rdfs:seeAlso <http://dbpedia.org/resource/Bundesautobahn_8>;
+	.
+
+ex:puzzle a ex:Topics;
+	rdfs:label "P";
+	rdfs:seeAlso <http://dbpedia.org/resource/Puzzle>;
+	.
+
+ex:algorithm a ex:Topics;
+	rdfs:label "A";
+	rdfs:seeAlso <http://dbpedia.org/resource/Algorithm>;
+	.
+

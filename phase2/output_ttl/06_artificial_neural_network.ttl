@@ -1,0 +1,33 @@
+	ex:hasTopicsCovered ex:artificial_intelligence;
+	ex:hasTopicsCovered ex:perceptron;
+	ex:hasTopicsCovered ex:backpropagation;
+	ex:hasTopicsCovered ex:vector_13;
+	ex:hasTopicsCovered ex:english_english;
+
+
+
+ex:artificial_intelligence a ex:Topics;
+	rdfs:label "AI";
+	rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence>;
+	.
+
+ex:perceptron a ex:Topics;
+	rdfs:label "P";
+	rdfs:seeAlso <http://dbpedia.org/resource/Perceptron>;
+	.
+
+ex:backpropagation a ex:Topics;
+	rdfs:label "B";
+	rdfs:seeAlso <http://dbpedia.org/resource/Backpropagation>;
+	.
+
+ex:vector_13 a ex:Topics;
+	rdfs:label "V1";
+	rdfs:seeAlso <http://dbpedia.org/resource/Vector_13>;
+	.
+
+ex:english_english a ex:Topics;
+	rdfs:label "EE";
+	rdfs:seeAlso <http://dbpedia.org/resource/English_language_in_England>;
+	.
+
