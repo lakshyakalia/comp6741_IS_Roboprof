@@ -4,60 +4,72 @@
 dbpedia:Anaconda a ex:Topics;
     rdfs:label "Anaconda"@en;
     rdfs:seeAlso <http://dbpedia.org/resource/Anaconda>;
-     .
+  .
 
 dbpedia:Pythonidae a ex:Topics;
     rdfs:label "Pythonidae"@en;
     rdfs:seeAlso <http://dbpedia.org/resource/Pythonidae>;
-     .
+  .
 
 dbpedia:String_instrument a ex:Topics;
     rdfs:label "String_instrument"@en;
     rdfs:seeAlso <http://dbpedia.org/resource/String_instrument>;
-     .
+  .
 
 dbpedia:Java_virtual_machine a ex:Topics;
     rdfs:label "Java_virtual_machine"@en;
     rdfs:seeAlso <http://dbpedia.org/resource/Java_virtual_machine>;
-     .
+  .
 
 dbpedia:Microsoft_Windows a ex:Topics;
     rdfs:label "Microsoft_windows"@en;
     rdfs:seeAlso <http://dbpedia.org/resource/Microsoft_Windows>;
-     .
+  .
 
 dbpedia:Git a ex:Topics;
     rdfs:label "Git"@en;
     rdfs:seeAlso <http://dbpedia.org/resource/Git>;
-     .
+  .
 
 dbpedia:GNU_Compiler_Collection a ex:Topics;
     rdfs:label "Gnu_compiler_collection"@en;
     rdfs:seeAlso <http://dbpedia.org/resource/GNU_Compiler_Collection>;
-     .
+  .
 
 dbpedia:Clang a ex:Topics;
     rdfs:label "Clang"@en;
     rdfs:seeAlso <http://dbpedia.org/resource/Clang>;
-     .
+  .
 
 dbpedia:Boolean_data_type a ex:Topics;
     rdfs:label "Boolean_data_type"@en;
     rdfs:seeAlso <http://dbpedia.org/resource/Boolean_data_type>;
-     .
+  .
 
 dbpedia:Modulo_operation a ex:Topics;
     rdfs:label "Modulo_operation"@en;
     rdfs:seeAlso <http://dbpedia.org/resource/Modulo_operation>;
-     .
+  .
 
 dbpedia:Stanford_University a ex:Topics;
     rdfs:label "Stanford_university"@en;
     rdfs:seeAlso <http://dbpedia.org/resource/Stanford_University>;
-     .
+  .
 
 dbpedia:Safari a ex:Topics;
     rdfs:label "Safari"@en;
     rdfs:seeAlso <http://dbpedia.org/resource/Safari>;
-     .
+  .
 
+    rdfs:hasTopicsCovered dbpedia:Anaconda;
+    rdfs:hasTopicsCovered dbpedia:Pythonidae;
+    rdfs:hasTopicsCovered dbpedia:String_instrument;
+    rdfs:hasTopicsCovered dbpedia:Java_virtual_machine;
+    rdfs:hasTopicsCovered dbpedia:Microsoft_Windows;
+    rdfs:hasTopicsCovered dbpedia:Git;
+    rdfs:hasTopicsCovered dbpedia:GNU_Compiler_Collection;
+    rdfs:hasTopicsCovered dbpedia:Clang;
+    rdfs:hasTopicsCovered dbpedia:Boolean_data_type;
+    rdfs:hasTopicsCovered dbpedia:Modulo_operation;
+    rdfs:hasTopicsCovered dbpedia:Stanford_University;
+    rdfs:hasTopicsCovered dbpedia:Safari;

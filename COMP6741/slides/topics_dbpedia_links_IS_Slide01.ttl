@@ -1,0 +1,201 @@
+@prefix dbpedia:<http://dbpedia.org/resource/>.
+@prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#> .
+
+dbpedia:Artificial_intelligence a ex:Topics;
+    rdfs:label "Artificial_intelligence"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence>;
+     .
+
+dbpedia:Computer_science a ex:Topics;
+    rdfs:label "Computer_science"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Computer_science>;
+     .
+
+dbpedia:Software_engineering a ex:Topics;
+    rdfs:label "Software_engineering"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Software_engineering>;
+     .
+
+dbpedia:Main_Page a ex:Topics;
+    rdfs:label "Main_page"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Main_Page>;
+     .
+
+dbpedia:Information_retrieval a ex:Topics;
+    rdfs:label "Information_retrieval"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Information_retrieval>;
+     .
+
+dbpedia:Apache_Lucene a ex:Topics;
+    rdfs:label "Apache_lucene"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Apache_Lucene>;
+     .
+
+dbpedia:Apache_Solr a ex:Topics;
+    rdfs:label "Apache_solr"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Apache_Solr>;
+     .
+
+dbpedia:Steve_Jobs a ex:Topics;
+    rdfs:label "Steve_jobs"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Steve_Jobs>;
+     .
+
+dbpedia:Information_extraction a ex:Topics;
+    rdfs:label "Information_extraction"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Information_extraction>;
+     .
+
+dbpedia:Text_mining a ex:Topics;
+    rdfs:label "Text_mining"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Text_mining>;
+     .
+
+dbpedia:Artificial_intelligence a ex:Topics;
+    rdfs:label "Artificial_intelligence"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence>;
+     .
+
+dbpedia:English_language a ex:Topics;
+    rdfs:label "English_language"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/English_language>;
+     .
+
+dbpedia:French_language a ex:Topics;
+    rdfs:label "French_language"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/French_language>;
+     .
+
+dbpedia:Natural_language_processing a ex:Topics;
+    rdfs:label "Natural_language_processing"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Natural_language_processing>;
+     .
+
+dbpedia:UIMA a ex:Topics;
+    rdfs:label "Uima"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/UIMA>;
+     .
+
+dbpedia:Amazon_rainforest a ex:Topics;
+    rdfs:label "Amazon_rainforest"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Amazon_rainforest>;
+     .
+
+dbpedia:Refinitiv a ex:Topics;
+    rdfs:label "Refinitiv"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Refinitiv>;
+     .
+
+dbpedia:Machine_learning a ex:Topics;
+    rdfs:label "Machine_learning"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Machine_learning>;
+     .
+
+dbpedia:Recommender_system a ex:Topics;
+    rdfs:label "Recommender_system"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Recommender_system>;
+     .
+
+dbpedia:IBM a ex:Topics;
+    rdfs:label "Ibm"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/IBM>;
+     .
+
+dbpedia:University_of_Sheffield a ex:Topics;
+    rdfs:label "University_of_sheffield"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/University_of_Sheffield>;
+     .
+
+dbpedia:Level_of_detail a ex:Topics;
+    rdfs:label "Level_of_detail"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Level_of_detail>;
+     .
+
+dbpedia:Textbook a ex:Topics;
+    rdfs:label "Textbook"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Textbook>;
+     .
+
+dbpedia:Semantic_Web a ex:Topics;
+    rdfs:label "Semantic_web"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Semantic_Web>;
+     .
+
+dbpedia:Resource_Description_Framework a ex:Topics;
+    rdfs:label "Resource_description_framework"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Resource_Description_Framework>;
+     .
+
+dbpedia:Mona_Lisa a ex:Topics;
+    rdfs:label "Mona_lisa"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Mona_Lisa>;
+     .
+
+dbpedia:Linked_data a ex:Topics;
+    rdfs:label "Linked_data"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Linked_data>;
+     .
+
+dbpedia:Resource_Description_Framework a ex:Topics;
+    rdfs:label "Resource_description_framework"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Resource_Description_Framework>;
+     .
+
+dbpedia:Mohammad-Taqi_Bahar a ex:Topics;
+    rdfs:label "Mohammad-taqi_bahar"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Mohammad-Taqi_Bahar>;
+     .
+
+dbpedia:Software_as_a_service a ex:Topics;
+    rdfs:label "Software_as_a_service"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Software_as_a_service>;
+     .
+
+dbpedia:Massachusetts_Institute_of_Technology a ex:Topics;
+    rdfs:label "Massachusetts_institute_of_technology"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Massachusetts_Institute_of_Technology>;
+     .
+
+dbpedia:Stanford_University a ex:Topics;
+    rdfs:label "Stanford_university"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Stanford_University>;
+     .
+
+dbpedia:Artificial_intelligence a ex:Topics;
+    rdfs:label "Artificial_intelligence"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence>;
+     .
+
+    rdfs:hasTopicsCovered dbpedia:Artificial_intelligence;
+    rdfs:hasTopicsCovered dbpedia:Computer_science;
+    rdfs:hasTopicsCovered dbpedia:Software_engineering;
+    rdfs:hasTopicsCovered dbpedia:Main_Page;
+    rdfs:hasTopicsCovered dbpedia:Information_retrieval;
+    rdfs:hasTopicsCovered dbpedia:Apache_Lucene;
+    rdfs:hasTopicsCovered dbpedia:Apache_Solr;
+    rdfs:hasTopicsCovered dbpedia:Steve_Jobs;
+    rdfs:hasTopicsCovered dbpedia:Information_extraction;
+    rdfs:hasTopicsCovered dbpedia:Text_mining;
+    rdfs:hasTopicsCovered dbpedia:Artificial_intelligence;
+    rdfs:hasTopicsCovered dbpedia:English_language;
+    rdfs:hasTopicsCovered dbpedia:French_language;
+    rdfs:hasTopicsCovered dbpedia:Natural_language_processing;
+    rdfs:hasTopicsCovered dbpedia:UIMA;
+    rdfs:hasTopicsCovered dbpedia:Amazon_rainforest;
+    rdfs:hasTopicsCovered dbpedia:Refinitiv;
+    rdfs:hasTopicsCovered dbpedia:Machine_learning;
+    rdfs:hasTopicsCovered dbpedia:Recommender_system;
+    rdfs:hasTopicsCovered dbpedia:IBM;
+    rdfs:hasTopicsCovered dbpedia:University_of_Sheffield;
+    rdfs:hasTopicsCovered dbpedia:Level_of_detail;
+    rdfs:hasTopicsCovered dbpedia:Textbook;
+    rdfs:hasTopicsCovered dbpedia:Semantic_Web;
+    rdfs:hasTopicsCovered dbpedia:Resource_Description_Framework;
+    rdfs:hasTopicsCovered dbpedia:Mona_Lisa;
+    rdfs:hasTopicsCovered dbpedia:Linked_data;
+    rdfs:hasTopicsCovered dbpedia:Resource_Description_Framework;
+    rdfs:hasTopicsCovered dbpedia:Mohammad-Taqi_Bahar;
+    rdfs:hasTopicsCovered dbpedia:Software_as_a_service;
+    rdfs:hasTopicsCovered dbpedia:Massachusetts_Institute_of_Technology;
+    rdfs:hasTopicsCovered dbpedia:Stanford_University;
+    rdfs:hasTopicsCovered dbpedia:Artificial_intelligence;
