@@ -24,7 +24,7 @@ def process_string(file_cotent):
     return named_entity
 
 def main():
-    file = '01_intro_to_ai_and_history'
+    file = 'COMP6721_AI_Lab_2_Winter2024'
     file_path='phase2/output/' + file + '.txt'
     output_path='phase2/output_ttl/' + file + '.ttl'
     file_content_string=file_content_as_string(file_path)
@@ -54,7 +54,7 @@ def main():
 
         word = t.split('_')
         label = ''.join(w[0].upper() for w in word)
-        str = str + 'rdfs:label "' + label + '";\n\t'
+        str = str + 'rdfs:label "' + t + '"@en;\n\t'
         str = str + 'rdfs:seeAlso <' + topic_dict[t] + '>;\n\t'
         str = str + '.\n\n'
 
