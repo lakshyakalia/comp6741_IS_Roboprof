@@ -7,9 +7,9 @@
 @prefix isr_slides:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/slides/>.
 @prefix isr_labs:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/labs/>.
 @prefix isr_tutorials:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/tutorials/>.
-@prefix aai_reading_materials:<file:///C:/Users/laksh/Documents/IS_Project/AI_material/ReadingMaterials>.
-@prefix aai_labs:<file:///C:/Users/laksh/Documents/IS_Project/AI_material/Labs>.
-@prefix aai_slides:<file:///C:/Users/laksh/Documents/IS_Project/AI_material/Lectures>.
+@prefix aai_reading_materials:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/AI_material/ReadingMaterials>.
+@prefix aai_labs:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/AI_material/Labs>.
+@prefix aai_slides:<file:///home/manish/Desktop/Intelligent_Systems/Project/Project_Folder/comp6741_IS_Roboprof/COMP6741/AI_material/Lectures>.
 
 #University Class
 ex:University a owl:Class;
@@ -333,7 +333,7 @@ ex:Aatish_Neupane a ex:Student;
 
 #Lecture content data.
 #IS Lecture one contents
-isr_slides:IS_Slides01 a ex:Slides;
+isr_slides:IS_Slide01 a ex:Slides;
     rdfs:label "IS_slide_01";
     rdfs:comment "Intelligent System Silde 01";
     .
