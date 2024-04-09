@@ -1,20 +1,20 @@
-	ex:hasTopicsCovered ex:ai;
-	ex:hasTopicsCovered ex:artificial_intelligence;
-	ex:hasTopicsCovered ex:shrdlu;
+	ex:hasTopicsCovered dbpedia:ai;
+	ex:hasTopicsCovered dbpedia:artificial_intelligence;
+	ex:hasTopicsCovered dbpedia:shrdlu;
 
 
 
-ex:ai a ex:Topics;
+dbpedia:ai a ex:Topics;
 	rdfs:label "A";
 	rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence>;
 	.
 
-ex:artificial_intelligence a ex:Topics;
+dbpedia:artificial_intelligence a ex:Topics;
 	rdfs:label "AI";
 	rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence>;
 	.
 
-ex:shrdlu a ex:Topics;
+dbpedia:shrdlu a ex:Topics;
 	rdfs:label "S";
 	rdfs:seeAlso <http://dbpedia.org/resource/SHRDLU>;
 	.

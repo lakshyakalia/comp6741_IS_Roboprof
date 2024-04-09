@@ -1,44 +1,44 @@
-	ex:hasTopicsCovered ex:naïve_bayes;
-	ex:hasTopicsCovered ex:jack;
-	ex:hasTopicsCovered ex:kami;
-	ex:hasTopicsCovered ex:google;
-	ex:hasTopicsCovered ex:bayes_classifier;
-	ex:hasTopicsCovered ex:moodle;
-	ex:hasTopicsCovered ex:spam;
+	ex:hasTopicsCovered dbpedia:naïve_bayes;
+	ex:hasTopicsCovered dbpedia:jack;
+	ex:hasTopicsCovered dbpedia:kami;
+	ex:hasTopicsCovered dbpedia:google;
+	ex:hasTopicsCovered dbpedia:bayes_classifier;
+	ex:hasTopicsCovered dbpedia:moodle;
+	ex:hasTopicsCovered dbpedia:spam;
 
 
 
-ex:naïve_bayes a ex:Topics;
+dbpedia:naïve_bayes a ex:Topics;
 	rdfs:label "NB";
 	rdfs:seeAlso <http://dbpedia.org/resource/Naive_Bayes_classifier>;
 	.
 
-ex:jack a ex:Topics;
+dbpedia:jack a ex:Topics;
 	rdfs:label "J";
 	rdfs:seeAlso <http://dbpedia.org/resource/Jack_Harkness>;
 	.
 
-ex:kami a ex:Topics;
+dbpedia:kami a ex:Topics;
 	rdfs:label "K";
 	rdfs:seeAlso <http://dbpedia.org/resource/Kami>;
 	.
 
-ex:google a ex:Topics;
+dbpedia:google a ex:Topics;
 	rdfs:label "G";
 	rdfs:seeAlso <http://dbpedia.org/resource/Google>;
 	.
 
-ex:bayes_classifier a ex:Topics;
+dbpedia:bayes_classifier a ex:Topics;
 	rdfs:label "BC";
 	rdfs:seeAlso <http://dbpedia.org/resource/Bayes_classifier>;
 	.
 
-ex:moodle a ex:Topics;
+dbpedia:moodle a ex:Topics;
 	rdfs:label "M";
 	rdfs:seeAlso <http://dbpedia.org/resource/Moodle>;
 	.
 
-ex:spam a ex:Topics;
+dbpedia:spam a ex:Topics;
 	rdfs:label "S";
 	rdfs:seeAlso <http://dbpedia.org/resource/Spamming>;
 	.

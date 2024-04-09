@@ -24,7 +24,7 @@ def process_string(file_cotent):
     return named_entity
 
 def main():
-    file = 'COMP6721_AI_Lab_5_Winter2024'
+    file = '01_intro_to_ai_and_history'
     file_path='phase2/output/' + file + '.txt'
     output_path='phase2/output_ttl/' + file + '.ttl'
     file_content_string=file_content_as_string(file_path)
@@ -45,12 +45,12 @@ def main():
     # print(topic_dict)
     str = ''
     for t in topic_dict:
-        str = str + '\tex:hasTopicsCovered ex:' + t + ';\n'
+        str = str + '\tex:hasTopicsCovered dbpedia:' + t + ';\n'
         # print(t)
     str = str + '\n\n\n'
 
     for t in topic_dict:
-        str = str + 'ex:' + t + ' a ex:Topics;\n\t'
+        str = str + 'dbpedia:' + t + ' a ex:Topics;\n\t'
 
         word = t.split('_')
         label = ''.join(w[0].upper() for w in word)

@@ -1,98 +1,98 @@
-	ex:hasTopicsCovered ex:outlook;
-	ex:hasTopicsCovered ex:decision_tree;
-	ex:hasTopicsCovered ex:naïve_bayes;
-	ex:hasTopicsCovered ex:classifier;
-	ex:hasTopicsCovered ex:graphviz;
-	ex:hasTopicsCovered ex:iris;
-	ex:hasTopicsCovered ex:f1;
-	ex:hasTopicsCovered ex:danielle;
-	ex:hasTopicsCovered ex:forillon_national_park;
-	ex:hasTopicsCovered ex:canada;
-	ex:hasTopicsCovered ex:quebec;
-	ex:hasTopicsCovered ex:creative_commons;
-	ex:hasTopicsCovered ex:euclidean;
-	ex:hasTopicsCovered ex:centroid;
-	ex:hasTopicsCovered ex:matplotlib;
-	ex:hasTopicsCovered ex:fig;
+	ex:hasTopicsCovered dbpedia:outlook;
+	ex:hasTopicsCovered dbpedia:decision_tree;
+	ex:hasTopicsCovered dbpedia:naïve_bayes;
+	ex:hasTopicsCovered dbpedia:classifier;
+	ex:hasTopicsCovered dbpedia:graphviz;
+	ex:hasTopicsCovered dbpedia:iris;
+	ex:hasTopicsCovered dbpedia:f1;
+	ex:hasTopicsCovered dbpedia:danielle;
+	ex:hasTopicsCovered dbpedia:forillon_national_park;
+	ex:hasTopicsCovered dbpedia:canada;
+	ex:hasTopicsCovered dbpedia:quebec;
+	ex:hasTopicsCovered dbpedia:creative_commons;
+	ex:hasTopicsCovered dbpedia:euclidean;
+	ex:hasTopicsCovered dbpedia:centroid;
+	ex:hasTopicsCovered dbpedia:matplotlib;
+	ex:hasTopicsCovered dbpedia:fig;
 
 
 
-ex:outlook a ex:Topics;
+dbpedia:outlook a ex:Topics;
 	rdfs:label "O";
 	rdfs:seeAlso <http://dbpedia.org/resource/Microsoft_Outlook>;
 	.
 
-ex:decision_tree a ex:Topics;
+dbpedia:decision_tree a ex:Topics;
 	rdfs:label "DT";
 	rdfs:seeAlso <http://dbpedia.org/resource/Decision_tree>;
 	.
 
-ex:naïve_bayes a ex:Topics;
+dbpedia:naïve_bayes a ex:Topics;
 	rdfs:label "NB";
 	rdfs:seeAlso <http://dbpedia.org/resource/Naive_Bayes_classifier>;
 	.
 
-ex:classifier a ex:Topics;
+dbpedia:classifier a ex:Topics;
 	rdfs:label "C";
 	rdfs:seeAlso <http://dbpedia.org/resource/Statistical_classification>;
 	.
 
-ex:graphviz a ex:Topics;
+dbpedia:graphviz a ex:Topics;
 	rdfs:label "G";
 	rdfs:seeAlso <http://dbpedia.org/resource/Graphviz>;
 	.
 
-ex:iris a ex:Topics;
+dbpedia:iris a ex:Topics;
 	rdfs:label "I";
 	rdfs:seeAlso <http://dbpedia.org/resource/Iris_subg._Iris>;
 	.
 
-ex:f1 a ex:Topics;
+dbpedia:f1 a ex:Topics;
 	rdfs:label "F";
 	rdfs:seeAlso <http://dbpedia.org/resource/Fujita_scale>;
 	.
 
-ex:danielle a ex:Topics;
+dbpedia:danielle a ex:Topics;
 	rdfs:label "D";
 	rdfs:seeAlso <http://dbpedia.org/resource/List_of_The_Bold_and_the_Beautiful_secondary_characters>;
 	.
 
-ex:forillon_national_park a ex:Topics;
+dbpedia:forillon_national_park a ex:Topics;
 	rdfs:label "FNP";
 	rdfs:seeAlso <http://dbpedia.org/resource/Forillon_National_Park>;
 	.
 
-ex:canada a ex:Topics;
+dbpedia:canada a ex:Topics;
 	rdfs:label "C";
 	rdfs:seeAlso <http://dbpedia.org/resource/Canada>;
 	.
 
-ex:quebec a ex:Topics;
+dbpedia:quebec a ex:Topics;
 	rdfs:label "Q";
 	rdfs:seeAlso <http://dbpedia.org/resource/Quebec>;
 	.
 
-ex:creative_commons a ex:Topics;
+dbpedia:creative_commons a ex:Topics;
 	rdfs:label "CC";
 	rdfs:seeAlso <http://dbpedia.org/resource/Creative_Commons_license>;
 	.
 
-ex:euclidean a ex:Topics;
+dbpedia:euclidean a ex:Topics;
 	rdfs:label "E";
 	rdfs:seeAlso <http://dbpedia.org/resource/Euclidean_distance>;
 	.
 
-ex:centroid a ex:Topics;
+dbpedia:centroid a ex:Topics;
 	rdfs:label "C";
 	rdfs:seeAlso <http://dbpedia.org/resource/Centroid>;
 	.
 
-ex:matplotlib a ex:Topics;
+dbpedia:matplotlib a ex:Topics;
 	rdfs:label "M";
 	rdfs:seeAlso <http://dbpedia.org/resource/Matplotlib>;
 	.
 
-ex:fig a ex:Topics;
+dbpedia:fig a ex:Topics;
 	rdfs:label "F";
 	rdfs:seeAlso <http://dbpedia.org/resource/Ficus>;
 	.
