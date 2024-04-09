@@ -1,0 +1,19 @@
+PREFIX ec: <http://eulergui.sourceforge.net/contacts.owl.n3#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex: <http://example.org/>
+PREFIX dbpedia: <http://dbpedia.org/resource/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX vcard:      <http://www.w3.org/2001/vcard-rdf/3.0#>
+
+#Q3
+SELECT ?course ?lecture ?lecture_content WHERE{
+	?course ex:courseSubject ?course_subject.
+  	?course ex:courseNumber ?course_number.
+  	?course ex:hasLecture ?lecture.
+  	?lecture ex:hasLectureContent ?lecture_content.
+  	?lecture_content ex:hasTopicsCovered ?topics.
+  	?topics rdfs:label ?topics_label.
+  	?topics rdfs:seeAlso ?topic_uri.
+  FILTER(?topic_uri=<http://dbpedia.org/resource/Google>)
+}
