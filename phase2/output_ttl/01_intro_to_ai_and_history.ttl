@@ -49,237 +49,237 @@
 
 
 dbpedia:ai a ex:Topics;
-	rdfs:label "A";
+	rdfs:label "ai"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence>;
 	.
 
 dbpedia:artificial_intelligence a ex:Topics;
-	rdfs:label "AI";
+	rdfs:label "artificial_intelligence"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence>;
 	.
 
 dbpedia:deep_learning a ex:Topics;
-	rdfs:label "DL";
+	rdfs:label "deep_learning"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Deep_learning>;
 	.
 
 dbpedia:kurzweil a ex:Topics;
-	rdfs:label "K";
+	rdfs:label "kurzweil"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Ray_Kurzweil>;
 	.
 
 dbpedia:rich a ex:Topics;
-	rdfs:label "R";
+	rdfs:label "rich"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Rich_Alvarez>;
 	.
 
 dbpedia:reflex a ex:Topics;
-	rdfs:label "R";
+	rdfs:label "reflex"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Reflex>;
 	.
 
 dbpedia:continuum a ex:Topics;
-	rdfs:label "C";
+	rdfs:label "continuum"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Continuum_International_Publishing_Group>;
 	.
 
 dbpedia:criticize a ex:Topics;
-	rdfs:label "C";
+	rdfs:label "criticize"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Criticize_(song)>;
 	.
 
 dbpedia:ibm_deep_blue a ex:Topics;
-	rdfs:label "IDB";
+	rdfs:label "ibm_deep_blue"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Deep_Blue_(chess_computer)>;
 	.
 
 dbpedia:kasparov a ex:Topics;
-	rdfs:label "K";
+	rdfs:label "kasparov"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Garry_Kasparov>;
 	.
 
 dbpedia:deep_blue a ex:Topics;
-	rdfs:label "DB";
+	rdfs:label "deep_blue"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/The_Blue_Planet>;
 	.
 
 dbpedia:deep_fritz a ex:Topics;
-	rdfs:label "DF";
+	rdfs:label "deep_fritz"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Fritz_(chess)>;
 	.
 
 dbpedia:kramnik a ex:Topics;
-	rdfs:label "K";
+	rdfs:label "kramnik"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Vladimir_Kramnik>;
 	.
 
 dbpedia:intel a ex:Topics;
-	rdfs:label "I";
+	rdfs:label "intel"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Intel>;
 	.
 
 dbpedia:ibm a ex:Topics;
-	rdfs:label "I";
+	rdfs:label "ibm"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/IBM>;
 	.
 
 dbpedia:brad_rutter a ex:Topics;
-	rdfs:label "BR";
+	rdfs:label "brad_rutter"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Brad_Rutter>;
 	.
 
 dbpedia:ken_jennings a ex:Topics;
-	rdfs:label "KJ";
+	rdfs:label "ken_jennings"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Ken_Jennings>;
 	.
 
 dbpedia:natural_language_processing a ex:Topics;
-	rdfs:label "NLP";
+	rdfs:label "natural_language_processing"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Natural_language_processing>;
 	.
 
 dbpedia:information_retrieval a ex:Topics;
-	rdfs:label "IR";
+	rdfs:label "information_retrieval"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Information_retrieval>;
 	.
 
 dbpedia:knowledge_representation a ex:Topics;
-	rdfs:label "KR";
+	rdfs:label "knowledge_representation"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Knowledge_representation_and_reasoning>;
 	.
 
 dbpedia:machine_learning a ex:Topics;
-	rdfs:label "ML";
+	rdfs:label "machine_learning"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Machine_learning>;
 	.
 
 dbpedia:alan_turing a ex:Topics;
-	rdfs:label "AT";
+	rdfs:label "alan_turing"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Alan_Turing>;
 	.
 
 dbpedia:the_turing_test a ex:Topics;
-	rdfs:label "TTT";
+	rdfs:label "the_turing_test"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Turing_test>;
 	.
 
 dbpedia:nlp a ex:Topics;
-	rdfs:label "N";
+	rdfs:label "nlp"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Natural_language_processing>;
 	.
 
 dbpedia:turing_test a ex:Topics;
-	rdfs:label "TT";
+	rdfs:label "turing_test"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Turing_test>;
 	.
 
 dbpedia:lotus_development a ex:Topics;
-	rdfs:label "LD";
+	rdfs:label "lotus_development"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Lotus_Software>;
 	.
 
 dbpedia:ray_kurzweil a ex:Topics;
-	rdfs:label "RK";
+	rdfs:label "ray_kurzweil"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Ray_Kurzweil>;
 	.
 
 dbpedia:english a ex:Topics;
-	rdfs:label "E";
+	rdfs:label "english"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/English_language>;
 	.
 
 dbpedia:captcha a ex:Topics;
-	rdfs:label "C";
+	rdfs:label "captcha"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/CAPTCHA>;
 	.
 
 dbpedia:expert_systems a ex:Topics;
-	rdfs:label "ES";
+	rdfs:label "expert_systems"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Expert_system>;
 	.
 
 dbpedia:world_war_ii a ex:Topics;
-	rdfs:label "WWI";
+	rdfs:label "world_war_ii"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/World_War_II>;
 	.
 
 dbpedia:russian a ex:Topics;
-	rdfs:label "R";
+	rdfs:label "russian"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Russian_language>;
 	.
 
 dbpedia:ocr a ex:Topics;
-	rdfs:label "O";
+	rdfs:label "ocr"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Optical_character_recognition>;
 	.
 
 dbpedia:optical_character_recognition a ex:Topics;
-	rdfs:label "OCR";
+	rdfs:label "optical_character_recognition"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Optical_character_recognition>;
 	.
 
 dbpedia:data_mining a ex:Topics;
-	rdfs:label "DM";
+	rdfs:label "data_mining"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Data_mining>;
 	.
 
 dbpedia:winograd a ex:Topics;
-	rdfs:label "W";
+	rdfs:label "winograd"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Terry_Winograd>;
 	.
 
 dbpedia:shrdlu a ex:Topics;
-	rdfs:label "S";
+	rdfs:label "shrdlu"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/SHRDLU>;
 	.
 
 dbpedia:english_english a ex:Topics;
-	rdfs:label "EE";
+	rdfs:label "english_english"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/English_language_in_England>;
 	.
 
 dbpedia:lisp a ex:Topics;
-	rdfs:label "L";
+	rdfs:label "lisp"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Common_Lisp>;
 	.
 
 dbpedia:ml a ex:Topics;
-	rdfs:label "M";
+	rdfs:label "ml"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Machine_learning>;
 	.
 
 dbpedia:java a ex:Topics;
-	rdfs:label "J";
+	rdfs:label "java"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Java_virtual_machine>;
 	.
 
 dbpedia:british a ex:Topics;
-	rdfs:label "B";
+	rdfs:label "british"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/United_Kingdom>;
 	.
 
 dbpedia:ai_winter a ex:Topics;
-	rdfs:label "AW";
+	rdfs:label "ai_winter"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/AI_winter>;
 	.
 
 dbpedia:joseph_weizenbaum a ex:Topics;
-	rdfs:label "JW";
+	rdfs:label "joseph_weizenbaum"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Joseph_Weizenbaum>;
 	.
 
 dbpedia:ret a ex:Topics;
-	rdfs:label "R";
+	rdfs:label "ret"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/RET_proto-oncogene>;
 	.
 
 dbpedia:weizenbaum a ex:Topics;
-	rdfs:label "W";
+	rdfs:label "weizenbaum"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Joseph_Weizenbaum>;
 	.
 
 dbpedia:algorithm_1 a ex:Topics;
-	rdfs:label "A1";
+	rdfs:label "algorithm_1"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/XTR>;
 	.
 

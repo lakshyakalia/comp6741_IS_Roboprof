@@ -4,12 +4,12 @@
 
 
 dbpedia:g1 a ex:Topics;
-	rdfs:label "G";
+	rdfs:label "g1"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/G1_phase>;
 	.
 
 dbpedia:frisbee a ex:Topics;
-	rdfs:label "F";
+	rdfs:label "frisbee"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Frisbee>;
 	.
 
