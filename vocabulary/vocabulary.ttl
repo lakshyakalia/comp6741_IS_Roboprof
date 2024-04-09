@@ -160,7 +160,7 @@ ex:link a rdfs:Property;
 ex:hasTopicsCovered a rdfs:Property;
     rdfs:label "topics covered";
     rdfs:comment "topics covered in a lecture";
-    rdfs:domain ex:Lecture;
+    rdfs:domain ex:lectureContent;
     rdfs:range ex:Topics;
     .
 
@@ -265,8 +265,7 @@ ex:Dynamic_Programming a ex:Topics;
     rdfs:comment "DP Topic";
     ex:TopicName "Dynamic Programming";
     .
-
-
+    
 
 #Lecture
 ex:AI_Lecture_One a ex:Lecture;
@@ -274,88 +273,18 @@ ex:AI_Lecture_One a ex:Lecture;
     rdfs:comment "AI lecture One";
     ex:lectureName "AI Lecture One";
     ex:lectureNumber "1"^^xsd:integer;
-    ex:hasTopicsCovered ex:Deep_Learning;
-    ex:hasTopicsCovered ex:Dynamic_Programming;
 	ex:hasLectureContent aai_reading_materials:AAI_Reading_Material_01;
 	ex:hasLectureContent aai_slides:01_intro_to_ai_and_history;
 	ex:hasLectureContent aai_labs:COMP6721_AI_Lab_1_Winter2024;
-    ex:hasTopicsCovered dbpedia:ai;
-	ex:hasTopicsCovered dbpedia:artificial_intelligence;
-	ex:hasTopicsCovered dbpedia:deep_learning;
-	ex:hasTopicsCovered dbpedia:kurzweil;
-	ex:hasTopicsCovered dbpedia:rich;
-	ex:hasTopicsCovered dbpedia:reflex;
-	ex:hasTopicsCovered dbpedia:continuum;
-	ex:hasTopicsCovered dbpedia:criticize;
-	ex:hasTopicsCovered dbpedia:ibm_deep_blue;
-	ex:hasTopicsCovered dbpedia:kasparov;
-	ex:hasTopicsCovered dbpedia:deep_blue;
-	ex:hasTopicsCovered dbpedia:deep_fritz;
-	ex:hasTopicsCovered dbpedia:kramnik;
-	ex:hasTopicsCovered dbpedia:intel;
-	ex:hasTopicsCovered dbpedia:ibm;
-	ex:hasTopicsCovered dbpedia:brad_rutter;
-	ex:hasTopicsCovered dbpedia:ken_jennings;
-	ex:hasTopicsCovered dbpedia:natural_language_processing;
-	ex:hasTopicsCovered dbpedia:information_retrieval;
-	ex:hasTopicsCovered dbpedia:knowledge_representation;
-	ex:hasTopicsCovered dbpedia:machine_learning;
-	ex:hasTopicsCovered dbpedia:alan_turing;
-	ex:hasTopicsCovered dbpedia:the_turing_test;
-	ex:hasTopicsCovered dbpedia:nlp;
-	ex:hasTopicsCovered dbpedia:turing_test;
-	ex:hasTopicsCovered dbpedia:lotus_development;
-	ex:hasTopicsCovered dbpedia:ray_kurzweil;
-	ex:hasTopicsCovered dbpedia:english;
-	ex:hasTopicsCovered dbpedia:captcha;
-	ex:hasTopicsCovered dbpedia:expert_systems;
-	ex:hasTopicsCovered dbpedia:world_war_ii;
-	ex:hasTopicsCovered dbpedia:russian;
-	ex:hasTopicsCovered dbpedia:ocr;
-	ex:hasTopicsCovered dbpedia:optical_character_recognition;
-	ex:hasTopicsCovered dbpedia:data_mining;
-	ex:hasTopicsCovered dbpedia:winograd;
-	ex:hasTopicsCovered dbpedia:shrdlu;
-	ex:hasTopicsCovered dbpedia:english_english;
-	ex:hasTopicsCovered dbpedia:lisp;
-	ex:hasTopicsCovered dbpedia:ml;
-	ex:hasTopicsCovered dbpedia:java;
-	ex:hasTopicsCovered dbpedia:british;
-	ex:hasTopicsCovered dbpedia:ai_winter;
-	ex:hasTopicsCovered dbpedia:joseph_weizenbaum;
-	ex:hasTopicsCovered dbpedia:ret;
-	ex:hasTopicsCovered dbpedia:weizenbaum;
-	ex:hasTopicsCovered dbpedia:algorithm_1;
     .
 
 ex:AI_Lecture_Two a ex:Lecture;
     rdfs:label "AI lecture Two";
-    rdfs:comment "AI lecture Twp";
-    ex:lectureName "AI Lecture Twp";
+    rdfs:comment "AI lecture Two";
+    ex:lectureName "AI Lecture Two";
     ex:lectureNumber "2"^^xsd:integer;
 	ex:hasLectureContent aai_slides:state_space_search;
 	ex:hasLectureContent aai_labs:COMP6721_AI_Lab_2_Winter2024;
-    ex:hasTopicsCovered dbpedia:tetris;
-	ex:hasTopicsCovered dbpedia:google;
-	ex:hasTopicsCovered dbpedia:heuristics;
-	ex:hasTopicsCovered dbpedia:expert_systems;
-	ex:hasTopicsCovered dbpedia:3x3;
-	ex:hasTopicsCovered dbpedia:sam_loyd;
-	ex:hasTopicsCovered dbpedia:concordia;
-	ex:hasTopicsCovered dbpedia:node_2;
-	ex:hasTopicsCovered dbpedia:dfs;
-	ex:hasTopicsCovered dbpedia:depth-limited_search;
-	ex:hasTopicsCovered dbpedia:heuristic;
-	ex:hasTopicsCovered dbpedia:heureka;
-	ex:hasTopicsCovered dbpedia:rich;
-	ex:hasTopicsCovered dbpedia:artificial_intelligence;
-	ex:hasTopicsCovered dbpedia:mcgraw-hill;
-	ex:hasTopicsCovered dbpedia:general;
-	ex:hasTopicsCovered dbpedia:bad;
-	ex:hasTopicsCovered dbpedia:manhattan;
-	ex:hasTopicsCovered dbpedia:a_8;
-	ex:hasTopicsCovered dbpedia:puzzle;
-	ex:hasTopicsCovered dbpedia:algorithm;
     .
 
 ex:IS_Lecture_One a ex:Lecture;
@@ -363,8 +292,7 @@ ex:IS_Lecture_One a ex:Lecture;
     rdfs:comment "IS lecture One";
     ex:lectureName "IS Lecture One";
     ex:lectureNumber "1"^^xsd:integer;
-    ex:hasTopicsCovered ex:Dynamic_Programming;
-    ex:hasLectureContent isr_slides:IS_Slides01;
+    ex:hasLectureContent isr_slides:IS_Slide01;
     ex:hasLectureContent isr_labs:IS_Lab_01;
     ex:hasLectureContent isr_tutorials:IS_Worksheet_01;
     rdfs:seeAlso <http://concordia.ca/courses/comp6741/lecture_one>;
@@ -375,8 +303,7 @@ ex:IS_Lecture_Two a ex:Lecture;
     rdfs:comment "IS lecture Two";
     ex:lectureName "IS Lecture Two";
     ex:lectureNumber "2"^^xsd:integer;
-    ex:hasTopicsCovered ex:Deep_Learning;
-    ex:hasLectureContent isr_slides:IS_Slide_02;
+    ex:hasLectureContent isr_slides:IS_Slide02;
     ex:hasLectureContent isr_labs:IS_Lab_02;
     ex:hasLectureContent isr_tutorials:IS_Worksheet_02;
     rdfs:seeAlso <http://concordia.ca/courses/comp6741/lecture_two>;
@@ -428,7 +355,7 @@ isr_tutorials:IS_Worksheet_01 a ex:tutorials;
     .
 
 #IS Lecture two contents
-isr_slides:IS_Slide_02 a ex:Slides;
+isr_slides:IS_Slide02 a ex:Slides;
     rdfs:label "IS_slide_02";
     rdfs:comment "Intelligent System Silde 02";
     .
@@ -453,11 +380,137 @@ aai_reading_materials:AAI_Reading_Material_01 a ex:readingMaterials;
 aai_slides:01_intro_to_ai_and_history a ex:Slides;
     rdfs:label "01_intro_to_ai_and_history";
     rdfs:comment "01 intro to ai and history";
+    ex:hasTopicsCovered dbpedia:ai;
+	ex:hasTopicsCovered dbpedia:artificial_intelligence;
+	ex:hasTopicsCovered dbpedia:deep_learning;
+	ex:hasTopicsCovered dbpedia:kurzweil;
+	ex:hasTopicsCovered dbpedia:rich;
+	ex:hasTopicsCovered dbpedia:reflex;
+	ex:hasTopicsCovered dbpedia:continuum;
+	ex:hasTopicsCovered dbpedia:criticize;
+	ex:hasTopicsCovered dbpedia:ibm_deep_blue;
+	ex:hasTopicsCovered dbpedia:kasparov;
+	ex:hasTopicsCovered dbpedia:deep_blue;
+	ex:hasTopicsCovered dbpedia:deep_fritz;
+	ex:hasTopicsCovered dbpedia:kramnik;
+	ex:hasTopicsCovered dbpedia:intel;
+	ex:hasTopicsCovered dbpedia:ibm;
+	ex:hasTopicsCovered dbpedia:brad_rutter;
+	ex:hasTopicsCovered dbpedia:ken_jennings;
+	ex:hasTopicsCovered dbpedia:natural_language_processing;
+	ex:hasTopicsCovered dbpedia:information_retrieval;
+	ex:hasTopicsCovered dbpedia:knowledge_representation;
+	ex:hasTopicsCovered dbpedia:machine_learning;
+	ex:hasTopicsCovered dbpedia:alan_turing;
+	ex:hasTopicsCovered dbpedia:the_turing_test;
+	ex:hasTopicsCovered dbpedia:nlp;
+	ex:hasTopicsCovered dbpedia:turing_test;
+	ex:hasTopicsCovered dbpedia:lotus_development;
+	ex:hasTopicsCovered dbpedia:ray_kurzweil;
+	ex:hasTopicsCovered dbpedia:english;
+	ex:hasTopicsCovered dbpedia:captcha;
+	ex:hasTopicsCovered dbpedia:expert_systems;
+	ex:hasTopicsCovered dbpedia:world_war_ii;
+	ex:hasTopicsCovered dbpedia:russian;
+	ex:hasTopicsCovered dbpedia:ocr;
+	ex:hasTopicsCovered dbpedia:optical_character_recognition;
+	ex:hasTopicsCovered dbpedia:data_mining;
+	ex:hasTopicsCovered dbpedia:winograd;
+	ex:hasTopicsCovered dbpedia:shrdlu;
+	ex:hasTopicsCovered dbpedia:english_english;
+	ex:hasTopicsCovered dbpedia:lisp;
+	ex:hasTopicsCovered dbpedia:ml;
+	ex:hasTopicsCovered dbpedia:java;
+	ex:hasTopicsCovered dbpedia:british;
+	ex:hasTopicsCovered dbpedia:ai_winter;
+	ex:hasTopicsCovered dbpedia:joseph_weizenbaum;
+	ex:hasTopicsCovered dbpedia:ret;
+	ex:hasTopicsCovered dbpedia:weizenbaum;
+	ex:hasTopicsCovered dbpedia:algorithm_1;
+    .
+
+aai_slides:02_state_space_search a ex:Slides;
+    rdfs:label "02_state_space_search";
+    rdfs:comment "02 state space search";
+    ex:hasTopicsCovered dbpedia:tetris;
+	ex:hasTopicsCovered dbpedia:google;
+	ex:hasTopicsCovered dbpedia:heuristics;
+	ex:hasTopicsCovered dbpedia:expert_systems;
+	ex:hasTopicsCovered dbpedia:3x3;
+	ex:hasTopicsCovered dbpedia:sam_loyd;
+	ex:hasTopicsCovered dbpedia:concordia;
+	ex:hasTopicsCovered dbpedia:node_2;
+	ex:hasTopicsCovered dbpedia:dfs;
+	ex:hasTopicsCovered dbpedia:depth-limited_search;
+	ex:hasTopicsCovered dbpedia:heuristic;
+	ex:hasTopicsCovered dbpedia:heureka;
+	ex:hasTopicsCovered dbpedia:rich;
+	ex:hasTopicsCovered dbpedia:artificial_intelligence;
+	ex:hasTopicsCovered dbpedia:mcgraw-hill;
+	ex:hasTopicsCovered dbpedia:general;
+	ex:hasTopicsCovered dbpedia:bad;
+	ex:hasTopicsCovered dbpedia:manhattan;
+	ex:hasTopicsCovered dbpedia:a_8;
+	ex:hasTopicsCovered dbpedia:puzzle;
+	ex:hasTopicsCovered dbpedia:algorithm;
     .
 
 aai_labs:COMP6721_AI_Lab_1_Winter2024 a ex:otherMaterials;
     rdfs:label "COMP6721_AI_Lab_1_Winter2024";
     rdfs:comment "COMP6721 AI Lab 1 Winter2024";
+    ex:hasTopicsCovered dbpedia:comp;
+	ex:hasTopicsCovered dbpedia:ai;
+	ex:hasTopicsCovered dbpedia:mycin;
+	ex:hasTopicsCovered dbpedia:ai_winter;
+	ex:hasTopicsCovered dbpedia:cornell;
+	ex:hasTopicsCovered dbpedia:frank_rosenblatt;
+	ex:hasTopicsCovered dbpedia:acm;
+	ex:hasTopicsCovered dbpedia:yoshua_bengio;
+	ex:hasTopicsCovered dbpedia:montreal;
+	ex:hasTopicsCovered dbpedia:geoffrey;
+	ex:hasTopicsCovered dbpedia:hinton;
+	ex:hasTopicsCovered dbpedia:toronto;
+	ex:hasTopicsCovered dbpedia:yann_lecun;
+	ex:hasTopicsCovered dbpedia:turing_award;
+	ex:hasTopicsCovered dbpedia:deep_learning;
+	ex:hasTopicsCovered dbpedia:marvin_minsky;
+	ex:hasTopicsCovered dbpedia:seymour;
+	ex:hasTopicsCovered dbpedia:alpac;
+	ex:hasTopicsCovered dbpedia:alphago;
+	ex:hasTopicsCovered dbpedia:terry_winograd;
+	ex:hasTopicsCovered dbpedia:shrdlu;
+	ex:hasTopicsCovered dbpedia:english;
+	ex:hasTopicsCovered dbpedia:lisp;
+	ex:hasTopicsCovered dbpedia:imagenet;
+	ex:hasTopicsCovered dbpedia:joseph_weizenbaum;
+	ex:hasTopicsCovered dbpedia:cortes;
+	ex:hasTopicsCovered dbpedia:vladimir_vapnik;
+	ex:hasTopicsCovered dbpedia:support_vector_machines;
+	ex:hasTopicsCovered dbpedia:svm;
+	ex:hasTopicsCovered dbpedia:new_york;
+	ex:hasTopicsCovered dbpedia:prolog;
+	ex:hasTopicsCovered dbpedia:google;
+	ex:hasTopicsCovered dbpedia:google_translate;
+	ex:hasTopicsCovered dbpedia:machine_translation;
+	ex:hasTopicsCovered dbpedia:mcgill_college;
+	ex:hasTopicsCovered dbpedia:generative_adversarial_networks;
+	ex:hasTopicsCovered dbpedia:mon;
+	ex:hasTopicsCovered dbpedia:environment_canada;
+	ex:hasTopicsCovered dbpedia:french;
+	ex:hasTopicsCovered dbpedia:canada;
+	ex:hasTopicsCovered dbpedia:alberta;
+	ex:hasTopicsCovered dbpedia:montréal;
+	ex:hasTopicsCovered dbpedia:gpt;
+	ex:hasTopicsCovered dbpedia:netflix;
+	ex:hasTopicsCovered dbpedia:alan_turing;
+	ex:hasTopicsCovered dbpedia:turing_test;
+    .
+
+aai_labs:COMP6721_AI_Lab_2_Winter2024 a ex:otherMaterials;
+    rdfs:label "COMP6721_AI_Lab_2_Winter2024";
+    rdfs:comment "COMP6721 AI Lab 2 Winter2024";
+    ex:hasTopicsCovered dbpedia:g1;
+	ex:hasTopicsCovered dbpedia:frisbee;
     .
 
 #Courses
@@ -505,6 +558,309 @@ ex:INTELLIGENT_SYSTEMS a ex:Course;
 	ex:courseDescription "LEC, Never Taken/Not Registered: COMP474";
 	.
 
+#IS Lab1 Topics
+dbpedia:Anaconda a ex:Topics;
+    rdfs:label "Anaconda"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Anaconda>;
+     .
+dbpedia:Pythonidae a ex:Topics;
+    rdfs:label "Pythonidae"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Pythonidae>;
+     .
+
+dbpedia:String_instrument a ex:Topics;
+    rdfs:label "String_instrument"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/String_instrument>;
+     .
+
+dbpedia:Java_virtual_machine a ex:Topics;
+    rdfs:label "Java_virtual_machine"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Java_virtual_machine>;
+     .
+
+dbpedia:Microsoft_Windows a ex:Topics;
+    rdfs:label "Microsoft_windows"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Microsoft_Windows>;
+     .
+
+dbpedia:Git a ex:Topics;
+    rdfs:label "Git"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Git>;
+     .
+
+dbpedia:GNU_Compiler_Collection a ex:Topics;
+    rdfs:label "Gnu_compiler_collection"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/GNU_Compiler_Collection>;
+     .
+
+dbpedia:Clang a ex:Topics;
+    rdfs:label "Clang"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Clang>;
+     .
+
+dbpedia:Boolean_data_type a ex:Topics;
+    rdfs:label "Boolean_data_type"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Boolean_data_type>;
+     .
+
+dbpedia:Modulo_operation a ex:Topics;
+    rdfs:label "Modulo_operation"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Modulo_operation>;
+     .
+
+dbpedia:Stanford_University a ex:Topics;
+    rdfs:label "Stanford_university"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Stanford_University>;
+     .
+
+dbpedia:Safari a ex:Topics;
+    rdfs:label "Safari"@en;
+    rdfs:seeAlso <http://dbpedia.org/resource/Safari>;
+     .
+
+#AI Lab 1 Topics
+dbpedia:comp a ex:Topics;
+	rdfs:label "comp"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/College_of_Osteopathic_Medicine_of_the_Pacific>;
+	.
+
+dbpedia:ai a ex:Topics;
+	rdfs:label "ai"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence>;
+	.
+
+dbpedia:mycin a ex:Topics;
+	rdfs:label "mycin"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Mycin>;
+	.
+
+dbpedia:ai_winter a ex:Topics;
+	rdfs:label "ai_winter"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/AI_winter>;
+	.
+
+dbpedia:cornell a ex:Topics;
+	rdfs:label "cornell"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Cornell_University>;
+	.
+
+dbpedia:frank_rosenblatt a ex:Topics;
+	rdfs:label "frank_rosenblatt"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Frank_Rosenblatt>;
+	.
+
+dbpedia:acm a ex:Topics;
+	rdfs:label "acm"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Association_for_Computing_Machinery>;
+	.
+
+dbpedia:yoshua_bengio a ex:Topics;
+	rdfs:label "yoshua_bengio"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Yoshua_Bengio>;
+	.
+
+dbpedia:montreal a ex:Topics;
+	rdfs:label "montreal"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Montreal>;
+	.
+
+dbpedia:geoffrey a ex:Topics;
+	rdfs:label "geoffrey"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Geoffrey_of_Monmouth>;
+	.
+
+dbpedia:hinton a ex:Topics;
+	rdfs:label "hinton"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Geoffrey_Hinton>;
+	.
+
+dbpedia:toronto a ex:Topics;
+	rdfs:label "toronto"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Toronto>;
+	.
+
+dbpedia:yann_lecun a ex:Topics;
+	rdfs:label "yann_lecun"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Yann_LeCun>;
+	.
+
+dbpedia:turing_award a ex:Topics;
+	rdfs:label "turing_award"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Turing_Award>;
+	.
+
+dbpedia:deep_learning a ex:Topics;
+	rdfs:label "deep_learning"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Deep_learning>;
+	.
+
+dbpedia:marvin_minsky a ex:Topics;
+	rdfs:label "marvin_minsky"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Marvin_Minsky>;
+	.
+
+dbpedia:seymour a ex:Topics;
+	rdfs:label "seymour"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Seymour_railway_station>;
+	.
+
+dbpedia:alpac a ex:Topics;
+	rdfs:label "alpac"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/ALPAC>;
+	.
+
+dbpedia:alphago a ex:Topics;
+	rdfs:label "alphago"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/AlphaGo>;
+	.
+
+dbpedia:terry_winograd a ex:Topics;
+	rdfs:label "terry_winograd"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Terry_Winograd>;
+	.
+
+dbpedia:shrdlu a ex:Topics;
+	rdfs:label "shrdlu"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/SHRDLU>;
+	.
+
+dbpedia:english a ex:Topics;
+	rdfs:label "english"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/English_language>;
+	.
+
+dbpedia:lisp a ex:Topics;
+	rdfs:label "lisp"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Lisp_(programming_language)>;
+	.
+
+dbpedia:imagenet a ex:Topics;
+	rdfs:label "imagenet"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/ImageNet>;
+	.
+
+dbpedia:joseph_weizenbaum a ex:Topics;
+	rdfs:label "joseph_weizenbaum"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Joseph_Weizenbaum>;
+	.
+
+dbpedia:cortes a ex:Topics;
+	rdfs:label "cortes"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Cortes_Generales>;
+	.
+
+dbpedia:vladimir_vapnik a ex:Topics;
+	rdfs:label "vladimir_vapnik"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Vladimir_Vapnik>;
+	.
+
+dbpedia:support_vector_machines a ex:Topics;
+	rdfs:label "support_vector_machines"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Support-vector_machine>;
+	.
+
+dbpedia:svm a ex:Topics;
+	rdfs:label "svm"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Support-vector_machine>;
+	.
+
+dbpedia:new_york a ex:Topics;
+	rdfs:label "new_york"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/New_York_City>;
+	.
+
+dbpedia:prolog a ex:Topics;
+	rdfs:label "prolog"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Prolog>;
+	.
+
+dbpedia:google a ex:Topics;
+	rdfs:label "google"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Google>;
+	.
+
+dbpedia:google_translate a ex:Topics;
+	rdfs:label "google_translate"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Google_Translate>;
+	.
+
+dbpedia:machine_translation a ex:Topics;
+	rdfs:label "machine_translation"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Machine_translation>;
+	.
+
+dbpedia:mcgill_college a ex:Topics;
+	rdfs:label "mcgill_college"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/McGill_University>;
+	.
+
+dbpedia:generative_adversarial_networks a ex:Topics;
+	rdfs:label "generative_adversarial_networks"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Generative_adversarial_network>;
+	.
+
+dbpedia:mon a ex:Topics;
+	rdfs:label "mon"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Mon_people>;
+	.
+
+dbpedia:environment_canada a ex:Topics;
+	rdfs:label "environment_canada"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Environment_and_Climate_Change_Canada>;
+	.
+
+dbpedia:french a ex:Topics;
+	rdfs:label "french"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/French_language>;
+	.
+
+dbpedia:canada a ex:Topics;
+	rdfs:label "canada"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Canada>;
+	.
+
+dbpedia:alberta a ex:Topics;
+	rdfs:label "alberta"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/University_of_Alberta>;
+	.
+
+dbpedia:montréal a ex:Topics;
+	rdfs:label "montréal"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Montreal>;
+	.
+
+dbpedia:gpt a ex:Topics;
+	rdfs:label "gpt"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/GEC_Plessey_Telecommunications>;
+	.
+
+dbpedia:netflix a ex:Topics;
+	rdfs:label "netflix"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Netflix>;
+	.
+
+dbpedia:alan_turing a ex:Topics;
+	rdfs:label "alan_turing"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Alan_Turing>;
+	.
+
+dbpedia:turing_test a ex:Topics;
+	rdfs:label "turing_test"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Turing_test>;
+	.
+
+#AI Lab 2 Topics
+dbpedia:g1 a ex:Topics;
+	rdfs:label "g1"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/G1_phase>;
+	.
+
+dbpedia:frisbee a ex:Topics;
+	rdfs:label "frisbee"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Frisbee>;
+	.
+
+#AI slide 1 topics
 dbpedia:ai a ex:Topics;
 	rdfs:label "ai"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence>;
@@ -740,6 +1096,7 @@ dbpedia:algorithm_1 a ex:Topics;
 	rdfs:seeAlso <http://dbpedia.org/resource/XTR>;
 	.
 
+#AI slide 2 Topics
 dbpedia:tetris a ex:Topics;
 	rdfs:label "tetris"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Tetris>;
@@ -843,246 +1200,6 @@ dbpedia:puzzle a ex:Topics;
 dbpedia:algorithm a ex:Topics;
 	rdfs:label "algorithm"@en;
 	rdfs:seeAlso <http://dbpedia.org/resource/Algorithm>;
-	.
-
-dbpedia:comp a ex:Topics;
-	rdfs:label "comp"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/College_of_Osteopathic_Medicine_of_the_Pacific>;
-	.
-
-dbpedia:ai a ex:Topics;
-	rdfs:label "ai"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence>;
-	.
-
-dbpedia:mycin a ex:Topics;
-	rdfs:label "mycin"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Mycin>;
-	.
-
-dbpedia:ai_winter a ex:Topics;
-	rdfs:label "ai_winter"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/AI_winter>;
-	.
-
-dbpedia:cornell a ex:Topics;
-	rdfs:label "cornell"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Cornell_University>;
-	.
-
-dbpedia:frank_rosenblatt a ex:Topics;
-	rdfs:label "frank_rosenblatt"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Frank_Rosenblatt>;
-	.
-
-dbpedia:acm a ex:Topics;
-	rdfs:label "acm"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Association_for_Computing_Machinery>;
-	.
-
-dbpedia:yoshua_bengio a ex:Topics;
-	rdfs:label "yoshua_bengio"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Yoshua_Bengio>;
-	.
-
-dbpedia:montreal a ex:Topics;
-	rdfs:label "montreal"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Montreal>;
-	.
-
-dbpedia:geoffrey a ex:Topics;
-	rdfs:label "geoffrey"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Geoffrey_of_Monmouth>;
-	.
-
-dbpedia:hinton a ex:Topics;
-	rdfs:label "hinton"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Geoffrey_Hinton>;
-	.
-
-dbpedia:toronto a ex:Topics;
-	rdfs:label "toronto"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Toronto>;
-	.
-
-dbpedia:yann_lecun a ex:Topics;
-	rdfs:label "yann_lecun"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Yann_LeCun>;
-	.
-
-dbpedia:turing_award a ex:Topics;
-	rdfs:label "turing_award"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Turing_Award>;
-	.
-
-dbpedia:deep_learning a ex:Topics;
-	rdfs:label "deep_learning"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Deep_learning>;
-	.
-
-dbpedia:marvin_minsky a ex:Topics;
-	rdfs:label "marvin_minsky"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Marvin_Minsky>;
-	.
-
-dbpedia:seymour a ex:Topics;
-	rdfs:label "seymour"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Seymour_railway_station>;
-	.
-
-dbpedia:alpac a ex:Topics;
-	rdfs:label "alpac"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/ALPAC>;
-	.
-
-dbpedia:alphago a ex:Topics;
-	rdfs:label "alphago"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/AlphaGo>;
-	.
-
-dbpedia:terry_winograd a ex:Topics;
-	rdfs:label "terry_winograd"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Terry_Winograd>;
-	.
-
-dbpedia:shrdlu a ex:Topics;
-	rdfs:label "shrdlu"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/SHRDLU>;
-	.
-
-dbpedia:english a ex:Topics;
-	rdfs:label "english"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/English_language>;
-	.
-
-dbpedia:lisp a ex:Topics;
-	rdfs:label "lisp"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Lisp_(programming_language)>;
-	.
-
-dbpedia:imagenet a ex:Topics;
-	rdfs:label "imagenet"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/ImageNet>;
-	.
-
-dbpedia:joseph_weizenbaum a ex:Topics;
-	rdfs:label "joseph_weizenbaum"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Joseph_Weizenbaum>;
-	.
-
-dbpedia:cortes a ex:Topics;
-	rdfs:label "cortes"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Cortes_Generales>;
-	.
-
-dbpedia:vladimir_vapnik a ex:Topics;
-	rdfs:label "vladimir_vapnik"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Vladimir_Vapnik>;
-	.
-
-dbpedia:support_vector_machines a ex:Topics;
-	rdfs:label "support_vector_machines"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Support-vector_machine>;
-	.
-
-dbpedia:svm a ex:Topics;
-	rdfs:label "svm"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Support-vector_machine>;
-	.
-
-dbpedia:new_york a ex:Topics;
-	rdfs:label "new_york"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/New_York_City>;
-	.
-
-dbpedia:prolog a ex:Topics;
-	rdfs:label "prolog"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Prolog>;
-	.
-
-dbpedia:google a ex:Topics;
-	rdfs:label "google"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Google>;
-	.
-
-dbpedia:google_translate a ex:Topics;
-	rdfs:label "google_translate"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Google_Translate>;
-	.
-
-dbpedia:machine_translation a ex:Topics;
-	rdfs:label "machine_translation"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Machine_translation>;
-	.
-
-dbpedia:mcgill_college a ex:Topics;
-	rdfs:label "mcgill_college"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/McGill_University>;
-	.
-
-dbpedia:generative_adversarial_networks a ex:Topics;
-	rdfs:label "generative_adversarial_networks"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Generative_adversarial_network>;
-	.
-
-dbpedia:mon a ex:Topics;
-	rdfs:label "mon"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Mon_people>;
-	.
-
-dbpedia:environment_canada a ex:Topics;
-	rdfs:label "environment_canada"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Environment_and_Climate_Change_Canada>;
-	.
-
-dbpedia:french a ex:Topics;
-	rdfs:label "french"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/French_language>;
-	.
-
-dbpedia:canada a ex:Topics;
-	rdfs:label "canada"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Canada>;
-	.
-
-dbpedia:alberta a ex:Topics;
-	rdfs:label "alberta"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/University_of_Alberta>;
-	.
-
-dbpedia:montréal a ex:Topics;
-	rdfs:label "montréal"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Montreal>;
-	.
-
-dbpedia:gpt a ex:Topics;
-	rdfs:label "gpt"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/GEC_Plessey_Telecommunications>;
-	.
-
-dbpedia:netflix a ex:Topics;
-	rdfs:label "netflix"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Netflix>;
-	.
-
-dbpedia:alan_turing a ex:Topics;
-	rdfs:label "alan_turing"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Alan_Turing>;
-	.
-
-dbpedia:turing_test a ex:Topics;
-	rdfs:label "turing_test"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Turing_test>;
-	.
-
-dbpedia:g1 a ex:Topics;
-	rdfs:label "g1"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/G1_phase>;
-	.
-
-dbpedia:frisbee a ex:Topics;
-	rdfs:label "frisbee"@en;
-	rdfs:seeAlso <http://dbpedia.org/resource/Frisbee>;
 	.
 
 
