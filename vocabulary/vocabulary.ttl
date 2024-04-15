@@ -571,7 +571,7 @@ ex:APPLIED_ARTIFICIAL_INTELLIGENCE a ex:Course;
 	ex:courseSubject "COMP";
 	ex:courseNumber "6721"^^xsd:integer;
 	ex:courseCredit "4"^^xsd:integer;
-	ex:courseDescription "LAB,    Never Taken/Not Registered: COMP472";
+	ex:courseDescription "Introductory course for atrificial intelligence.";
 	.
 
 ex:APPLIED_ARTIFICIAL_INTELLIGENCE a ex:Course;
@@ -583,7 +583,6 @@ ex:APPLIED_ARTIFICIAL_INTELLIGENCE a ex:Course;
 	ex:courseCredit "4"^^xsd:integer;
 	ex:hasLecture ex:AI_Lecture_One;
     ex:hasLecture ex:AI_Lecture_Two;
-	ex:courseDescription "LEC,Never Taken/Not Registered: COMP472";
 	.
 
 ex:INTELLIGENT_SYSTEMS a ex:Course;
@@ -593,7 +592,7 @@ ex:INTELLIGENT_SYSTEMS a ex:Course;
 	ex:courseSubject "COMP";
 	ex:courseNumber "6741"^^xsd:integer;
 	ex:courseCredit "4"^^xsd:integer;
-	ex:courseDescription "LAB,Never Taken/Not Registered: COMP474";
+	ex:courseDescription "An AI course to design and understand intelligent agents.";
 	.
 
 ex:INTELLIGENT_SYSTEMS a ex:Course;
@@ -605,7 +604,6 @@ ex:INTELLIGENT_SYSTEMS a ex:Course;
 	ex:courseCredit "4"^^xsd:integer;
 	ex:hasLecture ex:IS_Lecture_One;
     ex:hasLecture ex:IS_Lecture_Two; 
-	ex:courseDescription "LEC, Never Taken/Not Registered: COMP474";
 	.
 
 #Reading Material
