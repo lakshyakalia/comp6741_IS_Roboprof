@@ -6,10 +6,11 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX vcard:      <http://www.w3.org/2001/vcard-rdf/3.0#>
 
 SELECT ?topic_name WHERE{
-		?course ex:courseName "Applied Artificial Intelligience".
+		?course ex:courseName "APPLIED ARTIFICIAL INTELLIGENCE".
   		?course ex:hasLecture ?lecture.
   		?lecture ex:lectureNumber ?lectureNumber.
-  		?lecture ex:hasTopicsCovered ?topics.
-  		?topics ex:TopicName ?topic_name.
+  		?lecture ex:hasLectureContent ?lecture_content.
+  		?lecture_content ex:hasTopicsCovered ?topics.
+  		?topics rdfs:label ?topic_name.
   		FILTER(?lectureNumber=1)
 }

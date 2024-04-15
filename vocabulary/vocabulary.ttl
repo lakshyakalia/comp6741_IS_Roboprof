@@ -420,6 +420,9 @@ isr_tutorials:IS_Worksheet_02 a ex:tutorials;
 aai_reading_materials:AAI_Reading_Material_01 a ex:readingMaterials;
 	rdfs:label "AAI_Reading_Material_01";
 	rdfs:comment "AAI Reading Material 01";
+    ex:hasTopicsCovered dbpedia:ai;
+	ex:hasTopicsCovered dbpedia:artificial_intelligence;
+	ex:hasTopicsCovered dbpedia:shrdlu;
 	.
 
 aai_slides:01_intro_to_ai_and_history a ex:Slides;
@@ -604,6 +607,23 @@ ex:INTELLIGENT_SYSTEMS a ex:Course;
     ex:hasLecture ex:IS_Lecture_Two; 
 	ex:courseDescription "LEC, Never Taken/Not Registered: COMP474";
 	.
+
+#Reading Material
+dbpedia:ai a ex:Topics;
+	rdfs:label "ai"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence>;
+	.
+
+dbpedia:artificial_intelligence a ex:Topics;
+	rdfs:label "artificial_intelligence"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence>;
+	.
+
+dbpedia:shrdlu a ex:Topics;
+	rdfs:label "shrdlu"@en;
+	rdfs:seeAlso <http://dbpedia.org/resource/SHRDLU>;
+	.
+
 
 #IS Lab1 Topics
 dbpedia:Anaconda a ex:Topics;
