@@ -295,7 +295,7 @@ ex:IS_Lecture_One a ex:Lecture;
     ex:hasLectureContent isr_slides:IS_Slide01;
     ex:hasLectureContent isr_labs:IS_Lab_01;
     ex:hasLectureContent isr_tutorials:IS_Worksheet_01;
-    rdfs:seeAlso <http://concordia.ca/courses/comp6741/lecture_one>;
+    rdfs:seeAlso <http://concordia.ca/courses/comp6741/>;
     .
 
 ex:IS_Lecture_Two a ex:Lecture;
@@ -306,7 +306,6 @@ ex:IS_Lecture_Two a ex:Lecture;
     ex:hasLectureContent isr_slides:IS_Slide02;
     ex:hasLectureContent isr_labs:IS_Lab_02;
     ex:hasLectureContent isr_tutorials:IS_Worksheet_02;
-    rdfs:seeAlso <http://concordia.ca/courses/comp6741/lecture_two>;
     .
 
 #Student
@@ -324,6 +323,7 @@ ex:Lakshya_Kalia a ex:Student;
     ex:studentName "Lakshya Kalia";
     ex:hasCompletedCourse ex:APPLIED_ARTIFICIAL_INTELLIGENCE;
     ex:hasCompletedCourse ex:INTELLIGENT_SYSTEMS;
+    ex:got_grade_A ex:APPLIED_ARTIFICIAL_INTELLIGENCE;
     .
 
 ex:Rohit_Shrestha a ex:Student;
