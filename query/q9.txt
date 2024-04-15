@@ -8,11 +8,13 @@ PREFIX vcard:      <http://www.w3.org/2001/vcard-rdf/3.0#>
 
 #Query 9
 SELECT DISTINCT ?content_label WHERE{
+	?course ex:courseSubject ?course_subject.
+  	?course ex:courseNumber ?course_number.
   	?course ex:hasLecture ?lecture.
-  	?lecture ex:hasTopicsCovered ?topic.
-  	?topic ex:TopicName ?topic_name.
   	?lecture ex:hasLectureContent ?lecture_content.
   	?lecture_content a ex:readingMaterials.
+  	?lecture_content ex:hasTopicsCovered ?topic.
+  	?topic rdfs:label ?topic_name.
   	?lecture_content rdfs:label ?content_label.
-  FILTER(?course=ex:APPLIED_ARTIFICIAL_INTELLIGENCE && ?topic_name='Deep Learning')
+  FILTER(?course=ex:APPLIED_ARTIFICIAL_INTELLIGENCE && ?topic_name='ai'@en)
 }

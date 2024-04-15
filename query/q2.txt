@@ -5,8 +5,11 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX vcard:      <http://www.w3.org/2001/vcard-rdf/3.0#>
 
-SELECT DISTINCT ?courseName WHERE{
+SELECT DISTINCT ?courseName ?topic WHERE{
   ?courses ex:courseName ?courseName.
   ?courses ex:hasLecture ?lecture.
-  ?lecture ex:hasTopicsCovered ex:Dynamic_Programming.
+  ?lecture ex:hasLectureContent ?lecture_content.
+  ?lecture_content ex:hasTopicsCovered ?topic.
+  ?topic rdfs:label ?topic_label.
+  FILTER(?topic=dbpedia:java)
 }

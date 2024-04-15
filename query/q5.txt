@@ -7,13 +7,14 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX vcard:      <http://www.w3.org/2001/vcard-rdf/3.0#>
 
 #Query 5
-SELECT DISTINCT ?content_label WHERE{
+SELECT DISTINCT ?lecture_content ?course ?content_label ?topic_name WHERE{
 	?course ex:courseSubject ?course_subject.
   	?course ex:courseNumber ?course_number.
   	?course ex:hasLecture ?lecture.
-  	?lecture ex:hasTopicsCovered ?topic.
-  	?topic ex:TopicName ?topic_name.
   	?lecture ex:hasLectureContent ?lecture_content.
+  	?lecture_content ex:hasTopicsCovered ?topic.
+  	?topic rdfs:label ?topic_name.
+#  	?lecture ex:hasLectureContent ?lecture_content.
   	?lecture_content rdfs:label ?content_label.
-  FILTER(?course_subject='COMP' && ?course_number=6741 && ?topic_name='Deep Learning')
+  FILTER(?course_subject='COMP' && ?course_number=6741 && ?topic_name="Text_mining"@en)
 }

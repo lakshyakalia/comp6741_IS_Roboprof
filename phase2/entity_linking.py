@@ -24,7 +24,7 @@ def process_string(file_cotent):
     return named_entity
 
 def main():
-    file = 'COMP6721_AI_Lab_2_Winter2024'
+    file = 'AAI_Reading_Material_01'
     file_path='phase2/output/' + file + '.txt'
     output_path='phase2/output_ttl/' + file + '.ttl'
     file_content_string=file_content_as_string(file_path)
