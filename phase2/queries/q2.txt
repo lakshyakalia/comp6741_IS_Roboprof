@@ -6,14 +6,15 @@ PREFIX dbpedia: <http://dbpedia.org/resource/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX vcard:      <http://www.w3.org/2001/vcard-rdf/3.0#>
-#P2 Query1
-SELECT ?topics_label ?topics ?lecture_label ?lecture_content_label ?lecture_content WHERE{
-	?course ex:courseName ?name.
+
+#P2 Query 2
+SELECT ?course ?lecture ?topic_uri WHERE{
+	?course ex:courseSubject ?course_subject.
+  	?course ex:courseNumber ?course_number.
   	?course ex:hasLecture ?lecture.
-  	?lecture rdfs:label	?lecture_label.
   	?lecture ex:hasLectureContent ?lecture_content.
   	?lecture_content ex:hasTopicsCovered ?topics.
-  	?lecture_content rdfs:label	?lecture_content_label.
   	?topics rdfs:label ?topics_label.
-  FILTER(?name="INTELLIGENT SYSTEMS")
+  	?topics rdfs:seeAlso ?topic_uri.
+  FILTER(?topic_uri=<http://dbpedia.org/resource/Artificial_intelligence>)
 }
